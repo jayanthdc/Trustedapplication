@@ -1,0 +1,2409 @@
+
+libadd_dl.so:     file format elf64-littleaarch64
+libadd_dl.so
+architecture: aarch64, flags 0x00000150:
+HAS_SYMS, DYNAMIC, D_PAGED
+start address 0x0000000000001630
+
+Program Header:
+    LOAD off    0x0000000000000000 vaddr 0x0000000000000000 paddr 0x0000000000000000 align 2**12
+         filesz 0x00000000000030a8 memsz 0x00000000000030a8 flags r-x
+    LOAD off    0x0000000000003e90 vaddr 0x0000000000004e90 paddr 0x0000000000004e90 align 2**12
+         filesz 0x00000000000001e0 memsz 0x00000000000001e0 flags rw-
+ DYNAMIC off    0x0000000000003e90 vaddr 0x0000000000004e90 paddr 0x0000000000004e90 align 2**3
+         filesz 0x0000000000000140 memsz 0x0000000000000140 flags rw-
+   STACK off    0x0000000000000000 vaddr 0x0000000000000000 paddr 0x0000000000000000 align 2**4
+         filesz 0x0000000000000000 memsz 0x0000000000000000 flags rw-
+   RELRO off    0x0000000000003e90 vaddr 0x0000000000004e90 paddr 0x0000000000004e90 align 2**0
+         filesz 0x0000000000000170 memsz 0x0000000000000170 flags r--
+
+Dynamic Section:
+  SONAME               e00508c9-4144-4be4-bcf2-616014c3e8e8
+  HASH                 0x0000000000000158
+  GNU_HASH             0x00000000000003b0
+  STRTAB               0x0000000000000dd8
+  SYMTAB               0x0000000000000640
+  STRSZ                0x00000000000005cc
+  SYMENT               0x0000000000000018
+  PLTGOT               0x0000000000004fe8
+  PLTRELSZ             0x0000000000000150
+  PLTREL               0x0000000000000007
+  JMPREL               0x00000000000013d8
+  RELA                 0x00000000000013a8
+  RELASZ               0x0000000000000030
+  RELAENT              0x0000000000000018
+private flags = 0:
+
+Sections:
+Idx Name          Size      VMA               LMA               File off  Algn
+  0 .hash         00000258  0000000000000158  0000000000000158  00000158  2**3
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  1 .gnu.hash     00000290  00000000000003b0  00000000000003b0  000003b0  2**3
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  2 .dynsym       00000798  0000000000000640  0000000000000640  00000640  2**3
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  3 .dynstr       000005cc  0000000000000dd8  0000000000000dd8  00000dd8  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  4 .rela.dyn     00000030  00000000000013a8  00000000000013a8  000013a8  2**3
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  5 .rela.plt     00000150  00000000000013d8  00000000000013d8  000013d8  2**3
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  6 .plt          00000100  0000000000001530  0000000000001530  00001530  2**4
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  7 .text         0000164c  0000000000001630  0000000000001630  00001630  2**3
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  8 .rodata       00000128  0000000000002c7c  0000000000002c7c  00002c7c  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  9 .eh_frame     00000300  0000000000002da8  0000000000002da8  00002da8  2**3
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 10 .dynamic      00000140  0000000000004e90  0000000000004e90  00003e90  2**3
+                  CONTENTS, ALLOC, LOAD, DATA
+ 11 .got          00000018  0000000000004fd0  0000000000004fd0  00003fd0  2**3
+                  CONTENTS, ALLOC, LOAD, DATA
+ 12 .got.plt      00000088  0000000000004fe8  0000000000004fe8  00003fe8  2**3
+                  CONTENTS, ALLOC, LOAD, DATA
+ 13 .comment      0000005a  0000000000000000  0000000000000000  00004070  2**0
+                  CONTENTS, READONLY
+ 14 .debug_aranges 00000530  0000000000000000  0000000000000000  000040d0  2**4
+                  CONTENTS, READONLY, DEBUGGING
+ 15 .debug_info   00001a50  0000000000000000  0000000000000000  00004600  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 16 .debug_abbrev 00000b22  0000000000000000  0000000000000000  00006050  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 17 .debug_line   00001dac  0000000000000000  0000000000000000  00006b72  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 18 .debug_str    0000aa62  0000000000000000  0000000000000000  0000891e  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 19 .debug_loc    00003f60  0000000000000000  0000000000000000  00013380  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 20 .debug_ranges 00000450  0000000000000000  0000000000000000  000172e0  2**4
+                  CONTENTS, READONLY, DEBUGGING
+ 21 .debug_macro  00006757  0000000000000000  0000000000000000  00017730  2**0
+                  CONTENTS, READONLY, DEBUGGING
+SYMBOL TABLE:
+0000000000000158 l    d  .hash	0000000000000000 .hash
+00000000000003b0 l    d  .gnu.hash	0000000000000000 .gnu.hash
+0000000000000640 l    d  .dynsym	0000000000000000 .dynsym
+0000000000000dd8 l    d  .dynstr	0000000000000000 .dynstr
+00000000000013a8 l    d  .rela.dyn	0000000000000000 .rela.dyn
+00000000000013d8 l    d  .rela.plt	0000000000000000 .rela.plt
+0000000000001530 l    d  .plt	0000000000000000 .plt
+0000000000001630 l    d  .text	0000000000000000 .text
+0000000000002c7c l    d  .rodata	0000000000000000 .rodata
+0000000000002da8 l    d  .eh_frame	0000000000000000 .eh_frame
+0000000000004e90 l    d  .dynamic	0000000000000000 .dynamic
+0000000000004fd0 l    d  .got	0000000000000000 .got
+0000000000004fe8 l    d  .got.plt	0000000000000000 .got.plt
+0000000000000000 l    d  .comment	0000000000000000 .comment
+0000000000000000 l    d  .debug_aranges	0000000000000000 .debug_aranges
+0000000000000000 l    d  .debug_info	0000000000000000 .debug_info
+0000000000000000 l    d  .debug_abbrev	0000000000000000 .debug_abbrev
+0000000000000000 l    d  .debug_line	0000000000000000 .debug_line
+0000000000000000 l    d  .debug_str	0000000000000000 .debug_str
+0000000000000000 l    d  .debug_loc	0000000000000000 .debug_loc
+0000000000000000 l    d  .debug_ranges	0000000000000000 .debug_ranges
+0000000000000000 l    d  .debug_macro	0000000000000000 .debug_macro
+0000000000000000 l    df *ABS*	0000000000000000 add_ta.c
+0000000000002c9d l     O .rodata	0000000000000004 __func__.4158
+0000000000000000 l    df *ABS*	0000000000000000 trace.c
+0000000000002cbb l     O .rodata	0000000000000005 lvl_strs.3567
+0000000000000000 l    df *ABS*	0000000000000000 memcpy.c
+0000000000000000 l    df *ABS*	0000000000000000 snprintk.c
+0000000000001b4c l     F .text	0000000000000bac kprintf.constprop.0
+0000000000002d82 l     O .rodata	0000000000000011 HEXDIGITS
+0000000000002d93 l     O .rodata	0000000000000011 hexdigits
+0000000000000000 l    df *ABS*	0000000000000000 memchr.c
+0000000000000000 l    df *ABS*	0000000000000000 strlen.c
+0000000000000000 l    df *ABS*	0000000000000000 trace_ext.c
+0000000000000000 l    df *ABS*	0000000000000000 utee_syscalls_a64.o
+0000000000000000 l    df *ABS*	0000000000000000 snprintf.c
+0000000000000000 l    df *ABS*	0000000000000000 
+0000000000004e90 l     O *ABS*	0000000000000000 _DYNAMIC
+0000000000004fd0 l     O *ABS*	0000000000000000 _GLOBAL_OFFSET_TABLE_
+00000000000028c4 g     F .text	000000000000003c putchar
+00000000000027bc g     F .text	00000000000000c8 printf
+0000000000002918 g     F .text	000000000000000c _utee_log
+0000000000002a98 g     F .text	000000000000000c _utee_cryp_random_number_generate
+0000000000001a80 g     F .text	0000000000000058 vsnprintk
+0000000000002bac g     F .text	0000000000000078 snprintf
+0000000000002a38 g     F .text	000000000000000c _utee_cryp_obj_restrict_usage
+0000000000002ae0 g     F .text	000000000000000c _utee_asymm_operate
+0000000000002b34 g     F .text	000000000000000c _utee_storage_free_enum
+00000000000029e4 g     F .text	000000000000000c _utee_hash_init
+0000000000001890 g     F .text	0000000000000070 trace_printf
+0000000000002ba0 g     F .text	000000000000000c _utee_cache_operation
+0000000000001908 g     F .text	00000000000000ec memcpy
+0000000000002884 g     F .text	0000000000000040 puts
+0000000000002c24 g     F .text	0000000000000058 vsnprintf
+0000000000000000         *UND*	0000000000000000 trace_level
+0000000000002af8 g     F .text	000000000000000c _utee_storage_obj_open
+00000000000029f0 g     F .text	000000000000000c _utee_hash_update
+0000000000000000         *UND*	0000000000000000 trace_ext_prefix
+0000000000002b58 g     F .text	000000000000000c _utee_storage_next_enum
+00000000000016a0 g     F .text	00000000000001f0 trace_vprintf
+0000000000002b10 g     F .text	000000000000000c _utee_storage_obj_del
+00000000000029cc g     F .text	000000000000000c _utee_cryp_state_copy
+0000000000002954 g     F .text	000000000000000c _utee_close_ta_session
+000000000000290c g     F .text	000000000000000c _utee_return
+0000000000002924 g     F .text	000000000000000c __utee_panic
+0000000000002900 g     F .text	000000000000000c _utee_panic
+0000000000002b94 g     F .text	000000000000000c _utee_cryp_obj_generate_key
+0000000000002b7c g     F .text	000000000000000c _utee_storage_obj_trunc
+0000000000002984 g     F .text	000000000000000c _utee_unmask_cancellation
+0000000000002930 g     F .text	000000000000000c _utee_get_property
+0000000000001630 g     F .text	0000000000000044 add
+0000000000002ad4 g     F .text	000000000000000c _utee_authenc_dec_final
+0000000000002b64 g     F .text	000000000000000c _utee_storage_obj_read
+0000000000002744 g     F .text	000000000000002c memchr
+0000000000002b88 g     F .text	000000000000000c _utee_storage_obj_seek
+0000000000002978 g     F .text	000000000000000c _utee_check_access_rights
+0000000000002b40 g     F .text	000000000000000c _utee_storage_reset_enum
+0000000000002abc g     F .text	000000000000000c _utee_authenc_update_payload
+0000000000002a50 g     F .text	000000000000000c _utee_cryp_obj_alloc
+00000000000026f8 g     F .text	000000000000004c __vsprintf
+00000000000029b4 g     F .text	000000000000000c _utee_set_ta_time
+0000000000002960 g     F .text	000000000000000c _utee_invoke_ta_command
+0000000000001690 g     F .text	0000000000000010 trace_get_level
+0000000000002a08 g     F .text	000000000000000c _utee_cipher_init
+0000000000002a2c g     F .text	000000000000000c _utee_cryp_obj_get_info
+00000000000029c0 g     F .text	000000000000000c _utee_cryp_state_alloc
+0000000000001900 g     F .text	0000000000000004 dhex_dump
+0000000000002a44 g     F .text	000000000000000c _utee_cryp_obj_get_attr
+0000000000002a20 g     F .text	000000000000000c _utee_cipher_final
+0000000000001674 g     F .text	000000000000001c trace_set_level
+00000000000029d8 g     F .text	000000000000000c _utee_cryp_state_free
+0000000000002948 g     F .text	000000000000000c _utee_open_ta_session
+0000000000002b4c g     F .text	000000000000000c _utee_storage_start_enum
+0000000000002ac8 g     F .text	000000000000000c _utee_authenc_enc_final
+0000000000002a5c g     F .text	000000000000000c _utee_cryp_obj_close
+0000000000002990 g     F .text	000000000000000c _utee_mask_cancellation
+0000000000002b1c g     F .text	000000000000000c _utee_storage_obj_rename
+0000000000002b70 g     F .text	000000000000000c _utee_storage_obj_write
+0000000000002ab0 g     F .text	000000000000000c _utee_authenc_update_aad
+0000000000001ad8 g     F .text	0000000000000074 snprintk
+0000000000002a80 g     F .text	000000000000000c _utee_cryp_obj_copy
+000000000000299c g     F .text	000000000000000c _utee_wait
+00000000000029a8 g     F .text	000000000000000c _utee_get_time
+0000000000002a74 g     F .text	000000000000000c _utee_cryp_obj_populate
+0000000000002a14 g     F .text	000000000000000c _utee_cipher_update
+00000000000019f4 g     F .text	000000000000008c __vsnprintf
+000000000000278c g     F .text	0000000000000028 trace_ext_puts
+00000000000027b4 g     F .text	0000000000000008 trace_ext_get_thread_id
+0000000000002a8c g     F .text	000000000000000c _utee_cryp_derive_key
+0000000000002a68 g     F .text	000000000000000c _utee_cryp_obj_reset
+000000000000293c g     F .text	000000000000000c _utee_get_property_name_to_index
+0000000000002aa4 g     F .text	000000000000000c _utee_authenc_init
+0000000000002770 g     F .text	000000000000001c strlen
+0000000000002b28 g     F .text	000000000000000c _utee_storage_alloc_enum
+0000000000002aec g     F .text	000000000000000c _utee_asymm_verify
+000000000000296c g     F .text	000000000000000c _utee_get_cancellation_flag
+0000000000002b04 g     F .text	000000000000000c _utee_storage_obj_create
+00000000000029fc g     F .text	000000000000000c _utee_hash_final
+
+
+
+Disassembly of section .plt:
+
+0000000000001530 <.plt>:
+    1530:	a9bf7bf0 	stp	x16, x30, [sp, #-16]!
+    1534:	f0000010 	adrp	x16, 4000 <hexdigits+0x126d>
+    1538:	f947fe11 	ldr	x17, [x16, #4088]
+    153c:	913fe210 	add	x16, x16, #0xff8
+    1540:	d61f0220 	br	x17
+    1544:	d503201f 	nop
+    1548:	d503201f 	nop
+    154c:	d503201f 	nop
+
+0000000000001550 <_utee_log@plt>:
+    1550:	90000030 	adrp	x16, 5000 <_utee_log+0x26e8>
+    1554:	f9400211 	ldr	x17, [x16]
+    1558:	91000210 	add	x16, x16, #0x0
+    155c:	d61f0220 	br	x17
+
+0000000000001560 <vsnprintk@plt>:
+    1560:	90000030 	adrp	x16, 5000 <_utee_log+0x26e8>
+    1564:	f9400611 	ldr	x17, [x16, #8]
+    1568:	91002210 	add	x16, x16, #0x8
+    156c:	d61f0220 	br	x17
+
+0000000000001570 <trace_printf@plt>:
+    1570:	90000030 	adrp	x16, 5000 <_utee_log+0x26e8>
+    1574:	f9400a11 	ldr	x17, [x16, #16]
+    1578:	91004210 	add	x16, x16, #0x10
+    157c:	d61f0220 	br	x17
+
+0000000000001580 <memcpy@plt>:
+    1580:	90000030 	adrp	x16, 5000 <_utee_log+0x26e8>
+    1584:	f9400e11 	ldr	x17, [x16, #24]
+    1588:	91006210 	add	x16, x16, #0x18
+    158c:	d61f0220 	br	x17
+
+0000000000001590 <vsnprintf@plt>:
+    1590:	90000030 	adrp	x16, 5000 <_utee_log+0x26e8>
+    1594:	f9401211 	ldr	x17, [x16, #32]
+    1598:	91008210 	add	x16, x16, #0x20
+    159c:	d61f0220 	br	x17
+
+00000000000015a0 <trace_vprintf@plt>:
+    15a0:	90000030 	adrp	x16, 5000 <_utee_log+0x26e8>
+    15a4:	f9401611 	ldr	x17, [x16, #40]
+    15a8:	9100a210 	add	x16, x16, #0x28
+    15ac:	d61f0220 	br	x17
+
+00000000000015b0 <__utee_panic@plt>:
+    15b0:	90000030 	adrp	x16, 5000 <_utee_log+0x26e8>
+    15b4:	f9401a11 	ldr	x17, [x16, #48]
+    15b8:	9100c210 	add	x16, x16, #0x30
+    15bc:	d61f0220 	br	x17
+
+00000000000015c0 <memchr@plt>:
+    15c0:	90000030 	adrp	x16, 5000 <_utee_log+0x26e8>
+    15c4:	f9401e11 	ldr	x17, [x16, #56]
+    15c8:	9100e210 	add	x16, x16, #0x38
+    15cc:	d61f0220 	br	x17
+
+00000000000015d0 <trace_get_level@plt>:
+    15d0:	90000030 	adrp	x16, 5000 <_utee_log+0x26e8>
+    15d4:	f9402211 	ldr	x17, [x16, #64]
+    15d8:	91010210 	add	x16, x16, #0x40
+    15dc:	d61f0220 	br	x17
+
+00000000000015e0 <snprintk@plt>:
+    15e0:	90000030 	adrp	x16, 5000 <_utee_log+0x26e8>
+    15e4:	f9402611 	ldr	x17, [x16, #72]
+    15e8:	91012210 	add	x16, x16, #0x48
+    15ec:	d61f0220 	br	x17
+
+00000000000015f0 <__vsnprintf@plt>:
+    15f0:	90000030 	adrp	x16, 5000 <_utee_log+0x26e8>
+    15f4:	f9402a11 	ldr	x17, [x16, #80]
+    15f8:	91014210 	add	x16, x16, #0x50
+    15fc:	d61f0220 	br	x17
+
+0000000000001600 <trace_ext_puts@plt>:
+    1600:	90000030 	adrp	x16, 5000 <_utee_log+0x26e8>
+    1604:	f9402e11 	ldr	x17, [x16, #88]
+    1608:	91016210 	add	x16, x16, #0x58
+    160c:	d61f0220 	br	x17
+
+0000000000001610 <trace_ext_get_thread_id@plt>:
+    1610:	90000030 	adrp	x16, 5000 <_utee_log+0x26e8>
+    1614:	f9403211 	ldr	x17, [x16, #96]
+    1618:	91018210 	add	x16, x16, #0x60
+    161c:	d61f0220 	br	x17
+
+0000000000001620 <strlen@plt>:
+    1620:	90000030 	adrp	x16, 5000 <_utee_log+0x26e8>
+    1624:	f9403611 	ldr	x17, [x16, #104]
+    1628:	9101a210 	add	x16, x16, #0x68
+    162c:	d61f0220 	br	x17
+
+Disassembly of section .text:
+
+0000000000001630 <add>:
+add():
+/home/jayanth/quemu-v8/source/optee_examples/hello_world/dummylib/add_ta.c:34
+    1630:	a9be7bfd 	stp	x29, x30, [sp, #-32]!
+/home/jayanth/quemu-v8/source/optee_examples/hello_world/dummylib/add_ta.c:37
+    1634:	52800023 	mov	w3, #0x1                   	// #1
+    1638:	52800062 	mov	w2, #0x3                   	// #3
+/home/jayanth/quemu-v8/source/optee_examples/hello_world/dummylib/add_ta.c:34
+    163c:	910003fd 	mov	x29, sp
+    1640:	f9000bf3 	str	x19, [sp, #16]
+/home/jayanth/quemu-v8/source/optee_examples/hello_world/dummylib/add_ta.c:36
+    1644:	0b010013 	add	w19, w0, w1
+/home/jayanth/quemu-v8/source/optee_examples/hello_world/dummylib/add_ta.c:37
+    1648:	2a1303e5 	mov	w5, w19
+    164c:	528004a1 	mov	w1, #0x25                  	// #37
+    1650:	b0000004 	adrp	x4, 2000 <kprintf.constprop.0+0x4b4>
+    1654:	b0000000 	adrp	x0, 2000 <kprintf.constprop.0+0x4b4>
+    1658:	9131f084 	add	x4, x4, #0xc7c
+    165c:	91327400 	add	x0, x0, #0xc9d
+    1660:	97ffffc4 	bl	1570 <trace_printf@plt>
+/home/jayanth/quemu-v8/source/optee_examples/hello_world/dummylib/add_ta.c:39
+    1664:	2a1303e0 	mov	w0, w19
+    1668:	f9400bf3 	ldr	x19, [sp, #16]
+    166c:	a8c27bfd 	ldp	x29, x30, [sp], #32
+    1670:	d65f03c0 	ret
+
+0000000000001674 <trace_set_level>:
+trace_set_level():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/trace.c:29
+    1674:	7100141f 	cmp	w0, #0x5
+    1678:	52800081 	mov	w1, #0x4                   	// #4
+    167c:	1a813000 	csel	w0, w0, w1, cc  // cc = lo, ul, last
+    1680:	f0000001 	adrp	x1, 4000 <hexdigits+0x126d>
+    1684:	f947ec21 	ldr	x1, [x1, #4056]
+    1688:	b9000020 	str	w0, [x1]
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/trace.c:30
+    168c:	d65f03c0 	ret
+
+0000000000001690 <trace_get_level>:
+trace_get_level():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/trace.c:34
+    1690:	f0000000 	adrp	x0, 4000 <hexdigits+0x126d>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/trace.c:35
+    1694:	f947ec00 	ldr	x0, [x0, #4056]
+    1698:	b9400000 	ldr	w0, [x0]
+    169c:	d65f03c0 	ret
+
+00000000000016a0 <trace_vprintf>:
+trace_vprintf():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/trace.c:106
+    16a0:	a9a87bfd 	stp	x29, x30, [sp, #-384]!
+    16a4:	910003fd 	mov	x29, sp
+    16a8:	a90153f3 	stp	x19, x20, [sp, #16]
+    16ac:	2a0203f3 	mov	w19, w2
+    16b0:	a9025bf5 	stp	x21, x22, [sp, #32]
+    16b4:	aa0003f6 	mov	x22, x0
+    16b8:	a90363f7 	stp	x23, x24, [sp, #48]
+    16bc:	aa0403f7 	mov	x23, x4
+    16c0:	aa0503f8 	mov	x24, x5
+    16c4:	a9046bf9 	stp	x25, x26, [sp, #64]
+    16c8:	2a0103f9 	mov	w25, w1
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/trace.c:111
+    16cc:	72001c7a 	ands	w26, w3, #0xff
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/trace.c:106
+    16d0:	f9002bfb 	str	x27, [sp, #80]
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/trace.c:111
+    16d4:	54000b60 	b.eq	1840 <trace_vprintf+0x1a0>  // b.none
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/trace.c:111 (discriminator 1)
+    16d8:	f0000003 	adrp	x3, 4000 <hexdigits+0x126d>
+    16dc:	f947ec63 	ldr	x3, [x3, #4056]
+    16e0:	b9400060 	ldr	w0, [x3]
+    16e4:	6b02001f 	cmp	w0, w2
+    16e8:	540009eb 	b.lt	1824 <trace_vprintf+0x184>  // b.tstop
+trace_level_to_string():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/trace.c:52
+    16ec:	7100105f 	cmp	w2, #0x4
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/trace.c:55
+    16f0:	b0000000 	adrp	x0, 2000 <kprintf.constprop.0+0x4b4>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/trace.c:52
+    16f4:	1a9f9041 	csel	w1, w2, wzr, ls  // ls = plast
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/trace.c:55
+    16f8:	9132ec00 	add	x0, x0, #0xcbb
+    16fc:	3861c803 	ldrb	w3, [x0, w1, sxtw]
+trace_vprintf():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/trace.c:115
+    1700:	910203f5 	add	x21, sp, #0x80
+    1704:	b0000002 	adrp	x2, 2000 <kprintf.constprop.0+0x4b4>
+    1708:	aa1503e0 	mov	x0, x21
+    170c:	91328442 	add	x2, x2, #0xca1
+    1710:	d2802001 	mov	x1, #0x100                 	// #256
+    1714:	97ffffb3 	bl	15e0 <snprintk@plt>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/trace.c:117
+    1718:	37f80860 	tbnz	w0, #31, 1824 <trace_vprintf+0x184>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/trace.c:122
+    171c:	f0000003 	adrp	x3, 4000 <hexdigits+0x126d>
+    1720:	d280201b 	mov	x27, #0x100                 	// #256
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/trace.c:119
+    1724:	93407c14 	sxtw	x20, w0
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/trace.c:122
+    1728:	cb20c361 	sub	x1, x27, w0, sxtw
+    172c:	f947f063 	ldr	x3, [x3, #4064]
+    1730:	b0000002 	adrp	x2, 2000 <kprintf.constprop.0+0x4b4>
+    1734:	8b20c2a0 	add	x0, x21, w0, sxtw
+    1738:	91329442 	add	x2, x2, #0xca5
+    173c:	97ffffa9 	bl	15e0 <snprintk@plt>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/trace.c:124
+    1740:	37f80720 	tbnz	w0, #31, 1824 <trace_vprintf+0x184>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/trace.c:126
+    1744:	8b20c294 	add	x20, x20, w0, sxtw
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/trace.c:128
+    1748:	3400093a 	cbz	w26, 186c <trace_vprintf+0x1cc>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/trace.c:128 (discriminator 1)
+    174c:	52800342 	mov	w2, #0x1a                  	// #26
+    1750:	1ad32453 	lsr	w19, w2, w19
+    1754:	360008d3 	tbz	w19, #0, 186c <trace_vprintf+0x1cc>
+print_thread_id():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/trace.c:65
+    1758:	97ffffae 	bl	1610 <trace_ext_get_thread_id@plt>
+trace_vprintf():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/trace.c:130
+    175c:	8b1402ba 	add	x26, x21, x20
+    1760:	cb14037b 	sub	x27, x27, x20
+print_thread_id():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/trace.c:65
+    1764:	2a0003e4 	mov	w4, w0
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/trace.c:67
+    1768:	37f80700 	tbnz	w0, #31, 1848 <trace_vprintf+0x1a8>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/trace.c:68
+    176c:	b0000002 	adrp	x2, 2000 <kprintf.constprop.0+0x4b4>
+    1770:	aa1b03e1 	mov	x1, x27
+    1774:	9132a442 	add	x2, x2, #0xca9
+    1778:	aa1a03e0 	mov	x0, x26
+    177c:	52800023 	mov	w3, #0x1                   	// #1
+    1780:	97ffff98 	bl	15e0 <snprintk@plt>
+trace_vprintf():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/trace.c:137
+    1784:	37f80500 	tbnz	w0, #31, 1824 <trace_vprintf+0x184>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/trace.c:139
+    1788:	8b20c293 	add	x19, x20, w0, sxtw
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/trace.c:141
+    178c:	b4000176 	cbz	x22, 17b8 <trace_vprintf+0x118>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/trace.c:142
+    1790:	b0000002 	adrp	x2, 2000 <kprintf.constprop.0+0x4b4>
+    1794:	d2802001 	mov	x1, #0x100                 	// #256
+    1798:	2a1903e4 	mov	w4, w25
+    179c:	aa1603e3 	mov	x3, x22
+    17a0:	9132d042 	add	x2, x2, #0xcb4
+    17a4:	cb130021 	sub	x1, x1, x19
+    17a8:	8b1302a0 	add	x0, x21, x19
+    17ac:	97ffff8d 	bl	15e0 <snprintk@plt>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/trace.c:144
+    17b0:	37f803a0 	tbnz	w0, #31, 1824 <trace_vprintf+0x184>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/trace.c:146
+    17b4:	8b20c273 	add	x19, x19, w0, sxtw
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/trace.c:156
+    17b8:	910183e3 	add	x3, sp, #0x60
+    17bc:	aa1803e1 	mov	x1, x24
+    17c0:	aa0303e0 	mov	x0, x3
+    17c4:	d2800402 	mov	x2, #0x20                  	// #32
+    17c8:	97ffff6e 	bl	1580 <memcpy@plt>
+    17cc:	aa0003e3 	mov	x3, x0
+    17d0:	aa1703e2 	mov	x2, x23
+    17d4:	8b1302a0 	add	x0, x21, x19
+    17d8:	d2802001 	mov	x1, #0x100                 	// #256
+    17dc:	cb130021 	sub	x1, x1, x19
+    17e0:	97ffff60 	bl	1560 <vsnprintk@plt>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/trace.c:157
+    17e4:	7100001f 	cmp	w0, #0x0
+    17e8:	5400004d 	b.le	17f0 <trace_vprintf+0x150>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/trace.c:158
+    17ec:	8b20c273 	add	x19, x19, w0, sxtw
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/trace.c:160
+    17f0:	f103fa7f 	cmp	x19, #0xfe
+    17f4:	d2801fc0 	mov	x0, #0xfe                  	// #254
+    17f8:	9a809273 	csel	x19, x19, x0, ls  // ls = plast
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/trace.c:163
+    17fc:	52800140 	mov	w0, #0xa                   	// #10
+    1800:	38336aa0 	strb	w0, [x21, x19]
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/trace.c:164
+    1804:	b4000093 	cbz	x19, 1814 <trace_vprintf+0x174>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/trace.c:164 (discriminator 1)
+    1808:	38736aa0 	ldrb	w0, [x21, x19]
+    180c:	7100281f 	cmp	w0, #0xa
+    1810:	540003c0 	b.eq	1888 <trace_vprintf+0x1e8>  // b.none
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/trace.c:167
+    1814:	91020be0 	add	x0, sp, #0x82
+    1818:	3833681f 	strb	wzr, [x0, x19]
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/trace.c:169
+    181c:	aa1503e0 	mov	x0, x21
+    1820:	97ffff78 	bl	1600 <trace_ext_puts@plt>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/trace.c:170
+    1824:	a94153f3 	ldp	x19, x20, [sp, #16]
+    1828:	a9425bf5 	ldp	x21, x22, [sp, #32]
+    182c:	a94363f7 	ldp	x23, x24, [sp, #48]
+    1830:	a9446bf9 	ldp	x25, x26, [sp, #64]
+    1834:	f9402bfb 	ldr	x27, [sp, #80]
+    1838:	a8d87bfd 	ldp	x29, x30, [sp], #384
+    183c:	d65f03c0 	ret
+trace_level_to_string():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/trace.c:50
+    1840:	528009a3 	mov	w3, #0x4d                  	// #77
+    1844:	17ffffaf 	b	1700 <trace_vprintf+0x60>
+print_thread_id():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/trace.c:70
+    1848:	aa1b03e1 	mov	x1, x27
+    184c:	aa1a03e0 	mov	x0, x26
+    1850:	b0000004 	adrp	x4, 2000 <kprintf.constprop.0+0x4b4>
+    1854:	52800023 	mov	w3, #0x1                   	// #1
+    1858:	91327084 	add	x4, x4, #0xc9c
+    185c:	b0000002 	adrp	x2, 2000 <kprintf.constprop.0+0x4b4>
+    1860:	9132bc42 	add	x2, x2, #0xcaf
+    1864:	97ffff5f 	bl	15e0 <snprintk@plt>
+    1868:	17ffffc7 	b	1784 <trace_vprintf+0xe4>
+trace_vprintf():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/trace.c:150
+    186c:	f103fa9f 	cmp	x20, #0xfe
+    1870:	54fffda8 	b.hi	1824 <trace_vprintf+0x184>  // b.pmore
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/trace.c:152
+    1874:	91000693 	add	x19, x20, #0x1
+    1878:	52800400 	mov	w0, #0x20                  	// #32
+    187c:	38346aa0 	strb	w0, [x21, x20]
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/trace.c:153
+    1880:	38336abf 	strb	wzr, [x21, x19]
+    1884:	17ffffcd 	b	17b8 <trace_vprintf+0x118>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/trace.c:165
+    1888:	d1000673 	sub	x19, x19, #0x1
+    188c:	17ffffde 	b	1804 <trace_vprintf+0x164>
+
+0000000000001890 <trace_printf>:
+trace_printf():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/trace.c:97
+    1890:	a9b17bfd 	stp	x29, x30, [sp, #-240]!
+    1894:	910003fd 	mov	x29, sp
+    1898:	a90d9be5 	stp	x5, x6, [sp, #216]
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/trace.c:100
+    189c:	9103c3e5 	add	x5, sp, #0xf0
+    18a0:	a90317e5 	stp	x5, x5, [sp, #48]
+    18a4:	910343e5 	add	x5, sp, #0xd0
+    18a8:	f90023e5 	str	x5, [sp, #64]
+    18ac:	128002e5 	mov	w5, #0xffffffe8            	// #-24
+    18b0:	b9004be5 	str	w5, [sp, #72]
+    18b4:	12800fe5 	mov	w5, #0xffffff80            	// #-128
+    18b8:	b9004fe5 	str	w5, [sp, #76]
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/trace.c:101
+    18bc:	910043e5 	add	x5, sp, #0x10
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/trace.c:97
+    18c0:	f90077e7 	str	x7, [sp, #232]
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/trace.c:101
+    18c4:	a9431fe6 	ldp	x6, x7, [sp, #48]
+    18c8:	a9011fe6 	stp	x6, x7, [sp, #16]
+    18cc:	a9441fe6 	ldp	x6, x7, [sp, #64]
+    18d0:	a9021fe6 	stp	x6, x7, [sp, #32]
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/trace.c:97
+    18d4:	3d8017e0 	str	q0, [sp, #80]
+    18d8:	3d801be1 	str	q1, [sp, #96]
+    18dc:	3d801fe2 	str	q2, [sp, #112]
+    18e0:	3d8023e3 	str	q3, [sp, #128]
+    18e4:	3d8027e4 	str	q4, [sp, #144]
+    18e8:	3d802be5 	str	q5, [sp, #160]
+    18ec:	3d802fe6 	str	q6, [sp, #176]
+    18f0:	3d8033e7 	str	q7, [sp, #192]
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/trace.c:101
+    18f4:	97ffff2b 	bl	15a0 <trace_vprintf@plt>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/trace.c:103
+    18f8:	a8cf7bfd 	ldp	x29, x30, [sp], #240
+    18fc:	d65f03c0 	ret
+
+0000000000001900 <dhex_dump>:
+dhex_dump():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/trace.c:280
+    1900:	d65f03c0 	ret
+    1904:	d503201f 	nop
+
+0000000000001908 <memcpy>:
+memcpy():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/isoc/newlib/memcpy.c:106
+    1908:	f1007c5f 	cmp	x2, #0x1f
+    190c:	54000629 	b.ls	19d0 <memcpy+0xc8>  // b.plast
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/isoc/newlib/memcpy.c:106 (discriminator 1)
+    1910:	aa000025 	orr	x5, x1, x0
+    1914:	f24008a5 	ands	x5, x5, #0x7
+    1918:	54000641 	b.ne	19e0 <memcpy+0xd8>  // b.any
+    191c:	d1008048 	sub	x8, x2, #0x20
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/isoc/newlib/memcpy.c:108
+    1920:	aa0103e4 	mov	x4, x1
+    1924:	927be908 	and	x8, x8, #0xffffffffffffffe0
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/isoc/newlib/memcpy.c:107
+    1928:	aa0003e3 	mov	x3, x0
+    192c:	91008108 	add	x8, x8, #0x20
+    1930:	8b080007 	add	x7, x0, x8
+    1934:	d503201f 	nop
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/isoc/newlib/memcpy.c:112
+    1938:	f9400086 	ldr	x6, [x4]
+    193c:	f9000066 	str	x6, [x3]
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/isoc/newlib/memcpy.c:113
+    1940:	91008084 	add	x4, x4, #0x20
+    1944:	91008063 	add	x3, x3, #0x20
+    1948:	f85e8086 	ldur	x6, [x4, #-24]
+    194c:	f81e8066 	stur	x6, [x3, #-24]
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/isoc/newlib/memcpy.c:114
+    1950:	f85f0086 	ldur	x6, [x4, #-16]
+    1954:	f81f0066 	stur	x6, [x3, #-16]
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/isoc/newlib/memcpy.c:111
+    1958:	eb0300ff 	cmp	x7, x3
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/isoc/newlib/memcpy.c:115
+    195c:	f85f8086 	ldur	x6, [x4, #-8]
+    1960:	f81f8066 	stur	x6, [x3, #-8]
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/isoc/newlib/memcpy.c:111
+    1964:	54fffea1 	b.ne	1938 <memcpy+0x30>  // b.any
+    1968:	8b080021 	add	x1, x1, x8
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/isoc/newlib/memcpy.c:120
+    196c:	f27d045f 	tst	x2, #0x18
+    1970:	92401044 	and	x4, x2, #0x1f
+    1974:	540003c0 	b.eq	19ec <memcpy+0xe4>  // b.none
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/isoc/newlib/memcpy.c:121
+    1978:	f8656826 	ldr	x6, [x1, x5]
+    197c:	f8256866 	str	x6, [x3, x5]
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/isoc/newlib/memcpy.c:120
+    1980:	910020a5 	add	x5, x5, #0x8
+    1984:	cb050086 	sub	x6, x4, x5
+    1988:	f1001cdf 	cmp	x6, #0x7
+    198c:	54ffff68 	b.hi	1978 <memcpy+0x70>  // b.pmore
+    1990:	d1002084 	sub	x4, x4, #0x8
+    1994:	92400842 	and	x2, x2, #0x7
+    1998:	927df084 	and	x4, x4, #0xfffffffffffffff8
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/isoc/newlib/memcpy.c:130
+    199c:	d1000446 	sub	x6, x2, #0x1
+    19a0:	91002084 	add	x4, x4, #0x8
+    19a4:	8b040063 	add	x3, x3, x4
+    19a8:	8b040021 	add	x1, x1, x4
+    19ac:	b4000102 	cbz	x2, 19cc <memcpy+0xc4>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/isoc/newlib/memcpy.c:99
+    19b0:	d2800002 	mov	x2, #0x0                   	// #0
+    19b4:	d503201f 	nop
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/isoc/newlib/memcpy.c:131
+    19b8:	38626825 	ldrb	w5, [x1, x2]
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/isoc/newlib/memcpy.c:130
+    19bc:	eb0200df 	cmp	x6, x2
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/isoc/newlib/memcpy.c:131
+    19c0:	38226865 	strb	w5, [x3, x2]
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/isoc/newlib/memcpy.c:130
+    19c4:	91000442 	add	x2, x2, #0x1
+    19c8:	54ffff81 	b.ne	19b8 <memcpy+0xb0>  // b.any
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/isoc/newlib/memcpy.c:135
+    19cc:	d65f03c0 	ret
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/isoc/newlib/memcpy.c:99
+    19d0:	aa0003e3 	mov	x3, x0
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/isoc/newlib/memcpy.c:130
+    19d4:	d1000446 	sub	x6, x2, #0x1
+    19d8:	b5fffec2 	cbnz	x2, 19b0 <memcpy+0xa8>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/isoc/newlib/memcpy.c:135
+    19dc:	d65f03c0 	ret
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/isoc/newlib/memcpy.c:130
+    19e0:	d1000446 	sub	x6, x2, #0x1
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/isoc/newlib/memcpy.c:99
+    19e4:	aa0003e3 	mov	x3, x0
+    19e8:	17fffff2 	b	19b0 <memcpy+0xa8>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/isoc/newlib/memcpy.c:120
+    19ec:	aa0403e2 	mov	x2, x4
+    19f0:	17fffff9 	b	19d4 <memcpy+0xcc>
+
+00000000000019f4 <__vsnprintf>:
+__vsnprintf():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:138
+    19f4:	a9b97bfd 	stp	x29, x30, [sp, #-112]!
+    19f8:	910003fd 	mov	x29, sp
+    19fc:	a90153f3 	stp	x19, x20, [sp, #16]
+    1a00:	aa0103f4 	mov	x20, x1
+    1a04:	aa0003f3 	mov	x19, x0
+    1a08:	aa0303e1 	mov	x1, x3
+    1a0c:	a9025bf5 	stp	x21, x22, [sp, #32]
+    1a10:	aa0203f5 	mov	x21, x2
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:142
+    1a14:	8b140016 	add	x22, x0, x20
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:143
+    1a18:	d2800402 	mov	x2, #0x20                  	// #32
+    1a1c:	910103e0 	add	x0, sp, #0x40
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:138
+    1a20:	f9001bf7 	str	x23, [sp, #48]
+    1a24:	12001c97 	and	w23, w4, #0xff
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:142
+    1a28:	f90037f6 	str	x22, [sp, #104]
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:143
+    1a2c:	97fffed5 	bl	1580 <memcpy@plt>
+    1a30:	aa0003e3 	mov	x3, x0
+    1a34:	2a1703e4 	mov	w4, w23
+    1a38:	aa1303e2 	mov	x2, x19
+    1a3c:	9101a3e1 	add	x1, sp, #0x68
+    1a40:	aa1503e0 	mov	x0, x21
+    1a44:	94000042 	bl	1b4c <kprintf.constprop.0>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:144
+    1a48:	f100027f 	cmp	x19, #0x0
+    1a4c:	fa401a84 	ccmp	x20, #0x0, #0x4, ne  // ne = any
+    1a50:	540000a0 	b.eq	1a64 <__vsnprintf+0x70>  // b.none
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:146
+    1a54:	93407c01 	sxtw	x1, w0
+    1a58:	eb20c29f 	cmp	x20, w0, sxtw
+    1a5c:	540000e8 	b.hi	1a78 <__vsnprintf+0x84>  // b.pmore
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:147
+    1a60:	381ff2df 	sturb	wzr, [x22, #-1]
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:152
+    1a64:	a94153f3 	ldp	x19, x20, [sp, #16]
+    1a68:	a9425bf5 	ldp	x21, x22, [sp, #32]
+    1a6c:	f9401bf7 	ldr	x23, [sp, #48]
+    1a70:	a8c77bfd 	ldp	x29, x30, [sp], #112
+    1a74:	d65f03c0 	ret
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:149
+    1a78:	38216a7f 	strb	wzr, [x19, x1]
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:151
+    1a7c:	17fffffa 	b	1a64 <__vsnprintf+0x70>
+
+0000000000001a80 <vsnprintk>:
+vsnprintk():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:130
+    1a80:	a9bb7bfd 	stp	x29, x30, [sp, #-80]!
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:131
+    1a84:	9100c3e4 	add	x4, sp, #0x30
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:130
+    1a88:	910003fd 	mov	x29, sp
+    1a8c:	a90153f3 	stp	x19, x20, [sp, #16]
+    1a90:	aa0003f3 	mov	x19, x0
+    1a94:	aa0103f4 	mov	x20, x1
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:131
+    1a98:	aa0403e0 	mov	x0, x4
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:130
+    1a9c:	aa0303e1 	mov	x1, x3
+    1aa0:	f90013f5 	str	x21, [sp, #32]
+    1aa4:	aa0203f5 	mov	x21, x2
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:131
+    1aa8:	d2800402 	mov	x2, #0x20                  	// #32
+    1aac:	97fffeb5 	bl	1580 <memcpy@plt>
+    1ab0:	aa1503e2 	mov	x2, x21
+    1ab4:	aa0003e3 	mov	x3, x0
+    1ab8:	aa1403e1 	mov	x1, x20
+    1abc:	aa1303e0 	mov	x0, x19
+    1ac0:	52800024 	mov	w4, #0x1                   	// #1
+    1ac4:	97fffecb 	bl	15f0 <__vsnprintf@plt>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:132
+    1ac8:	a94153f3 	ldp	x19, x20, [sp, #16]
+    1acc:	f94013f5 	ldr	x21, [sp, #32]
+    1ad0:	a8c57bfd 	ldp	x29, x30, [sp], #80
+    1ad4:	d65f03c0 	ret
+
+0000000000001ad8 <snprintk>:
+snprintk():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:113
+    1ad8:	a9b07bfd 	stp	x29, x30, [sp, #-256]!
+    1adc:	910003fd 	mov	x29, sp
+    1ae0:	a90d93e3 	stp	x3, x4, [sp, #216]
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:117
+    1ae4:	910403e3 	add	x3, sp, #0x100
+    1ae8:	a9030fe3 	stp	x3, x3, [sp, #48]
+    1aec:	910343e3 	add	x3, sp, #0xd0
+    1af0:	f90023e3 	str	x3, [sp, #64]
+    1af4:	128004e3 	mov	w3, #0xffffffd8            	// #-40
+    1af8:	b9004be3 	str	w3, [sp, #72]
+    1afc:	12800fe3 	mov	w3, #0xffffff80            	// #-128
+    1b00:	b9004fe3 	str	w3, [sp, #76]
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:118
+    1b04:	910043e3 	add	x3, sp, #0x10
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:113
+    1b08:	a90e9be5 	stp	x5, x6, [sp, #232]
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:118
+    1b0c:	a94317e4 	ldp	x4, x5, [sp, #48]
+    1b10:	a90117e4 	stp	x4, x5, [sp, #16]
+    1b14:	a94417e4 	ldp	x4, x5, [sp, #64]
+    1b18:	a90217e4 	stp	x4, x5, [sp, #32]
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:113
+    1b1c:	3d8017e0 	str	q0, [sp, #80]
+    1b20:	3d801be1 	str	q1, [sp, #96]
+    1b24:	3d801fe2 	str	q2, [sp, #112]
+    1b28:	3d8023e3 	str	q3, [sp, #128]
+    1b2c:	3d8027e4 	str	q4, [sp, #144]
+    1b30:	3d802be5 	str	q5, [sp, #160]
+    1b34:	3d802fe6 	str	q6, [sp, #176]
+    1b38:	3d8033e7 	str	q7, [sp, #192]
+    1b3c:	f9007fe7 	str	x7, [sp, #248]
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:118
+    1b40:	97fffe88 	bl	1560 <vsnprintk@plt>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:122
+    1b44:	a8d07bfd 	ldp	x29, x30, [sp], #256
+    1b48:	d65f03c0 	ret
+
+0000000000001b4c <kprintf.constprop.0>:
+kprintf():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:242
+    1b4c:	d103c3ff 	sub	sp, sp, #0xf0
+    1b50:	aa0103e8 	mov	x8, x1
+    1b54:	a9037bfd 	stp	x29, x30, [sp, #48]
+    1b58:	9100c3fd 	add	x29, sp, #0x30
+    1b5c:	a90453f3 	stp	x19, x20, [sp, #64]
+    1b60:	b9401874 	ldr	w20, [x3, #24]
+    1b64:	a9055bf5 	stp	x21, x22, [sp, #80]
+    1b68:	aa0203f6 	mov	x22, x2
+    1b6c:	a90663f7 	stp	x23, x24, [sp, #96]
+    1b70:	a9076bf9 	stp	x25, x26, [sp, #112]
+    1b74:	a90873fb 	stp	x27, x28, [sp, #128]
+    1b78:	aa0003fb 	mov	x27, x0
+    1b7c:	12001c80 	and	w0, w4, #0xff
+    1b80:	b900a3e0 	str	w0, [sp, #160]
+    1b84:	a9406873 	ldp	x19, x26, [x3]
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:264
+    1b88:	b40004c1 	cbz	x1, 1c20 <kprintf.constprop.0+0xd4>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:265
+    1b8c:	f9400038 	ldr	x24, [x1]
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:543
+    1b90:	910323ec 	add	x12, sp, #0xc8
+    1b94:	b0000000 	adrp	x0, 2000 <kprintf.constprop.0+0x4b4>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:275
+    1b98:	d2800017 	mov	x23, #0x0                   	// #0
+    1b9c:	9133e000 	add	x0, x0, #0xcf8
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:273
+    1ba0:	52800019 	mov	w25, #0x0                   	// #0
+    1ba4:	f9004be0 	str	x0, [sp, #144]
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:281
+    1ba8:	39400360 	ldrb	w0, [x27]
+    1bac:	7100941f 	cmp	w0, #0x25
+    1bb0:	7a401804 	ccmp	w0, #0x0, #0x4, ne  // ne = any
+    1bb4:	540003a1 	b.ne	1c28 <kprintf.constprop.0+0xdc>  // b.any
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:285
+    1bb8:	34005260 	cbz	w0, 2604 <kprintf.constprop.0+0xab8>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:293
+    1bbc:	12800005 	mov	w5, #0xffffffff            	// #-1
+    1bc0:	b0000006 	adrp	x6, 2000 <kprintf.constprop.0+0x4b4>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:288
+    1bc4:	9100077b 	add	x27, x27, #0x1
+    1bc8:	2a1403e4 	mov	w4, w20
+    1bcc:	aa1303e3 	mov	x3, x19
+    1bd0:	913450c6 	add	x6, x6, #0xd14
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:330
+    1bd4:	2a0503ee 	mov	w14, w5
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:294
+    1bd8:	52800001 	mov	w1, #0x0                   	// #0
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:292
+    1bdc:	5280000a 	mov	w10, #0x0                   	// #0
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:290
+    1be0:	52800015 	mov	w21, #0x0                   	// #0
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:352
+    1be4:	5280014d 	mov	w13, #0xa                   	// #10
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:305
+    1be8:	5280040f 	mov	w15, #0x20                  	// #32
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:296
+    1bec:	3840177c 	ldrb	w28, [x27], #1
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:297
+    1bf0:	7100e79f 	cmp	w28, #0x39
+    1bf4:	5400054c 	b.gt	1c9c <kprintf.constprop.0+0x150>
+    1bf8:	71007f9f 	cmp	w28, #0x1f
+    1bfc:	5400502d 	b.le	2600 <kprintf.constprop.0+0xab4>
+    1c00:	51008380 	sub	w0, w28, #0x20
+    1c04:	7100641f 	cmp	w0, #0x19
+    1c08:	54000508 	b.hi	1ca8 <kprintf.constprop.0+0x15c>  // b.pmore
+    1c0c:	f9404be2 	ldr	x2, [sp, #144]
+    1c10:	38604840 	ldrb	w0, [x2, w0, uxtw]
+    1c14:	10000062 	adr	x2, 1c20 <kprintf.constprop.0+0xd4>
+    1c18:	8b208840 	add	x0, x2, w0, sxtb #2
+    1c1c:	d61f0000 	br	x0
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:267
+    1c20:	d2800018 	mov	x24, #0x0                   	// #0
+    1c24:	17ffffdb 	b	1b90 <kprintf.constprop.0+0x44>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:282
+    1c28:	11000739 	add	w25, w25, #0x1
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:283
+    1c2c:	b40000b6 	cbz	x22, 1c40 <kprintf.constprop.0+0xf4>
+    1c30:	f100011f 	cmp	x8, #0x0
+    1c34:	fa5812c0 	ccmp	x22, x24, #0x0, ne  // ne = any
+    1c38:	54000042 	b.cs	1c40 <kprintf.constprop.0+0xf4>  // b.hs, b.nlast
+    1c3c:	380016c0 	strb	w0, [x22], #1
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:281
+    1c40:	9100077b 	add	x27, x27, #0x1
+    1c44:	17ffffd9 	b	1ba8 <kprintf.constprop.0+0x5c>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:325
+    1c48:	52800561 	mov	w1, #0x2b                  	// #43
+    1c4c:	17ffffe8 	b	1bec <kprintf.constprop.0+0xa0>
+    1c50:	786058c0 	ldrh	w0, [x6, w0, uxtw #1]
+    1c54:	10000062 	adr	x2, 1c60 <kprintf.constprop.0+0x114>
+    1c58:	8b20a840 	add	x0, x2, w0, sxth #2
+    1c5c:	d61f0000 	br	x0
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:480
+    1c60:	b0000017 	adrp	x23, 2000 <kprintf.constprop.0+0x4b4>
+    1c64:	91360af7 	add	x23, x23, #0xd82
+    1c68:	910046f7 	add	x23, x23, #0x11
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:481
+    1c6c:	36384515 	tbz	w21, #7, 250c <kprintf.constprop.0+0x9c0>
+    1c70:	37f84644 	tbnz	w4, #31, 2538 <kprintf.constprop.0+0x9ec>
+    1c74:	91003c73 	add	x19, x3, #0xf
+    1c78:	2a0403f4 	mov	w20, w4
+    1c7c:	927df273 	and	x19, x19, #0xfffffffffffffff8
+    1c80:	f9400062 	ldr	x2, [x3]
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:484
+    1c84:	36003475 	tbz	w21, #0, 2310 <kprintf.constprop.0+0x7c4>
+    1c88:	b4003442 	cbz	x2, 2310 <kprintf.constprop.0+0x7c4>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:485
+    1c8c:	321f02b5 	orr	w21, w21, #0x2
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:482
+    1c90:	52800040 	mov	w0, #0x2                   	// #2
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:488
+    1c94:	52800001 	mov	w1, #0x0                   	// #0
+    1c98:	14000078 	b	1e78 <kprintf.constprop.0+0x32c>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:297
+    1c9c:	51011380 	sub	w0, w28, #0x44
+    1ca0:	7100d81f 	cmp	w0, #0x36
+    1ca4:	54fffd69 	b.ls	1c50 <kprintf.constprop.0+0x104>  // b.plast
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:554
+    1ca8:	2a0403f4 	mov	w20, w4
+    1cac:	aa0303f3 	mov	x19, x3
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:551
+    1cb0:	390323fc 	strb	w28, [sp, #200]
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:554
+    1cb4:	14000058 	b	1e14 <kprintf.constprop.0+0x2c8>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:305
+    1cb8:	7100003f 	cmp	w1, #0x0
+    1cbc:	1a8f1021 	csel	w1, w1, w15, ne  // ne = any
+    1cc0:	17ffffcb 	b	1bec <kprintf.constprop.0+0xa0>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:308
+    1cc4:	320002b5 	orr	w21, w21, #0x1
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:309
+    1cc8:	17ffffc9 	b	1bec <kprintf.constprop.0+0xa0>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:317
+    1ccc:	37f80124 	tbnz	w4, #31, 1cf0 <kprintf.constprop.0+0x1a4>
+    1cd0:	91002c62 	add	x2, x3, #0xb
+    1cd4:	aa0303e0 	mov	x0, x3
+    1cd8:	927df043 	and	x3, x2, #0xfffffffffffffff8
+    1cdc:	b940000a 	ldr	w10, [x0]
+    1ce0:	36fff86a 	tbz	w10, #31, 1bec <kprintf.constprop.0+0xa0>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:319
+    1ce4:	4b0a03ea 	neg	w10, w10
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:322
+    1ce8:	321e02b5 	orr	w21, w21, #0x4
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:323
+    1cec:	17ffffc0 	b	1bec <kprintf.constprop.0+0xa0>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:317
+    1cf0:	11002082 	add	w2, w4, #0x8
+    1cf4:	7100005f 	cmp	w2, #0x0
+    1cf8:	540000cd 	b.le	1d10 <kprintf.constprop.0+0x1c4>
+    1cfc:	91002c67 	add	x7, x3, #0xb
+    1d00:	aa0303e0 	mov	x0, x3
+    1d04:	2a0203e4 	mov	w4, w2
+    1d08:	927df0e3 	and	x3, x7, #0xfffffffffffffff8
+    1d0c:	17fffff4 	b	1cdc <kprintf.constprop.0+0x190>
+    1d10:	8b24c340 	add	x0, x26, w4, sxtw
+    1d14:	2a0203e4 	mov	w4, w2
+    1d18:	17fffff1 	b	1cdc <kprintf.constprop.0+0x190>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:328
+    1d1c:	3840177c 	ldrb	w28, [x27], #1
+    1d20:	7100ab9f 	cmp	w28, #0x2a
+    1d24:	54000341 	b.ne	1d8c <kprintf.constprop.0+0x240>  // b.any
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:329
+    1d28:	37f80144 	tbnz	w4, #31, 1d50 <kprintf.constprop.0+0x204>
+    1d2c:	91002c62 	add	x2, x3, #0xb
+    1d30:	2a0403e7 	mov	w7, w4
+    1d34:	927df042 	and	x2, x2, #0xfffffffffffffff8
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:330
+    1d38:	b9400065 	ldr	w5, [x3]
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:331
+    1d3c:	2a0703e4 	mov	w4, w7
+    1d40:	aa0203e3 	mov	x3, x2
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:330
+    1d44:	710000bf 	cmp	w5, #0x0
+    1d48:	1a8ea0a5 	csel	w5, w5, w14, ge  // ge = tcont
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:331
+    1d4c:	17ffffa8 	b	1bec <kprintf.constprop.0+0xa0>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:329
+    1d50:	11002087 	add	w7, w4, #0x8
+    1d54:	710000ff 	cmp	w7, #0x0
+    1d58:	5400008d 	b.le	1d68 <kprintf.constprop.0+0x21c>
+    1d5c:	91002c62 	add	x2, x3, #0xb
+    1d60:	927df042 	and	x2, x2, #0xfffffffffffffff8
+    1d64:	17fffff5 	b	1d38 <kprintf.constprop.0+0x1ec>
+    1d68:	aa0303e2 	mov	x2, x3
+    1d6c:	8b24c343 	add	x3, x26, w4, sxtw
+    1d70:	17fffff2 	b	1d38 <kprintf.constprop.0+0x1ec>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:335
+    1d74:	1b0d00a5 	madd	w5, w5, w13, w0
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:336
+    1d78:	3840177c 	ldrb	w28, [x27], #1
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:334
+    1d7c:	5100c380 	sub	w0, w28, #0x30
+    1d80:	7100241f 	cmp	w0, #0x9
+    1d84:	54ffff89 	b.ls	1d74 <kprintf.constprop.0+0x228>  // b.plast
+    1d88:	17ffff9a 	b	1bf0 <kprintf.constprop.0+0xa4>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:333
+    1d8c:	52800005 	mov	w5, #0x0                   	// #0
+    1d90:	17fffffb 	b	1d7c <kprintf.constprop.0+0x230>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:346
+    1d94:	321602b5 	orr	w21, w21, #0x400
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:347
+    1d98:	17ffff95 	b	1bec <kprintf.constprop.0+0xa0>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:297
+    1d9c:	5280000a 	mov	w10, #0x0                   	// #0
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:352
+    1da0:	5100c39c 	sub	w28, w28, #0x30
+    1da4:	1b0d714a 	madd	w10, w10, w13, w28
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:353
+    1da8:	3840177c 	ldrb	w28, [x27], #1
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:354
+    1dac:	5100c380 	sub	w0, w28, #0x30
+    1db0:	7100241f 	cmp	w0, #0x9
+    1db4:	54ffff69 	b.ls	1da0 <kprintf.constprop.0+0x254>  // b.plast
+    1db8:	17ffff8e 	b	1bf0 <kprintf.constprop.0+0xa4>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:358
+    1dbc:	321a02b5 	orr	w21, w21, #0x40
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:359
+    1dc0:	17ffff8b 	b	1bec <kprintf.constprop.0+0xa0>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:361
+    1dc4:	321902b5 	orr	w21, w21, #0x80
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:362
+    1dc8:	17ffff89 	b	1bec <kprintf.constprop.0+0xa0>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:364
+    1dcc:	39400360 	ldrb	w0, [x27]
+    1dd0:	7101b01f 	cmp	w0, #0x6c
+    1dd4:	54000081 	b.ne	1de4 <kprintf.constprop.0+0x298>  // b.any
+    1dd8:	9100077b 	add	x27, x27, #0x1
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:372
+    1ddc:	321b02b5 	orr	w21, w21, #0x20
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:373
+    1de0:	17ffff83 	b	1bec <kprintf.constprop.0+0xa0>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:368
+    1de4:	321c02b5 	orr	w21, w21, #0x10
+    1de8:	17ffff81 	b	1bec <kprintf.constprop.0+0xa0>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:375
+    1dec:	321802b5 	orr	w21, w21, #0x100
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:376
+    1df0:	17ffff7f 	b	1bec <kprintf.constprop.0+0xa0>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:378
+    1df4:	321702b5 	orr	w21, w21, #0x200
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:379
+    1df8:	17ffff7d 	b	1bec <kprintf.constprop.0+0xa0>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:381
+    1dfc:	37f80164 	tbnz	w4, #31, 1e28 <kprintf.constprop.0+0x2dc>
+    1e00:	91002c73 	add	x19, x3, #0xb
+    1e04:	2a0403f4 	mov	w20, w4
+    1e08:	927df273 	and	x19, x19, #0xfffffffffffffff8
+    1e0c:	b9400060 	ldr	w0, [x3]
+    1e10:	390323e0 	strb	w0, [sp, #200]
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:550
+    1e14:	910323e3 	add	x3, sp, #0xc8
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:552
+    1e18:	52800025 	mov	w5, #0x1                   	// #1
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:291
+    1e1c:	52800006 	mov	w6, #0x0                   	// #0
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:553
+    1e20:	52800001 	mov	w1, #0x0                   	// #0
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:554
+    1e24:	140000fa 	b	220c <kprintf.constprop.0+0x6c0>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:381
+    1e28:	11002094 	add	w20, w4, #0x8
+    1e2c:	7100029f 	cmp	w20, #0x0
+    1e30:	5400008d 	b.le	1e40 <kprintf.constprop.0+0x2f4>
+    1e34:	91002c73 	add	x19, x3, #0xb
+    1e38:	927df273 	and	x19, x19, #0xfffffffffffffff8
+    1e3c:	17fffff4 	b	1e0c <kprintf.constprop.0+0x2c0>
+    1e40:	aa0303f3 	mov	x19, x3
+    1e44:	8b24c343 	add	x3, x26, w4, sxtw
+    1e48:	17fffff1 	b	1e0c <kprintf.constprop.0+0x2c0>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:386
+    1e4c:	321c02b5 	orr	w21, w21, #0x10
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:390
+    1e50:	363802f5 	tbz	w21, #7, 1eac <kprintf.constprop.0+0x360>
+    1e54:	37f80424 	tbnz	w4, #31, 1ed8 <kprintf.constprop.0+0x38c>
+    1e58:	91003c73 	add	x19, x3, #0xf
+    1e5c:	2a0403f4 	mov	w20, w4
+    1e60:	927df273 	and	x19, x19, #0xfffffffffffffff8
+    1e64:	f9400062 	ldr	x2, [x3]
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:391
+    1e68:	b6f82e02 	tbz	x2, #63, 2428 <kprintf.constprop.0+0x8dc>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:392
+    1e6c:	cb0203e2 	neg	x2, x2
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:395
+    1e70:	52800020 	mov	w0, #0x1                   	// #1
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:393
+    1e74:	528005a1 	mov	w1, #0x2d                  	// #45
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:494
+    1e78:	310004bf 	cmn	w5, #0x1
+    1e7c:	54003a21 	b.ne	25c0 <kprintf.constprop.0+0xa74>  // b.any
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:509
+    1e80:	7100041f 	cmp	w0, #0x1
+    1e84:	54002d60 	b.eq	2430 <kprintf.constprop.0+0x8e4>  // b.none
+    1e88:	7100081f 	cmp	w0, #0x2
+    1e8c:	54000ea1 	b.ne	2060 <kprintf.constprop.0+0x514>  // b.any
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:502
+    1e90:	91009583 	add	x3, x12, #0x25
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:531
+    1e94:	92400c40 	and	x0, x2, #0xf
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:532
+    1e98:	d344fc42 	lsr	x2, x2, #4
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:531
+    1e9c:	38606ae0 	ldrb	w0, [x23, x0]
+    1ea0:	381ffc60 	strb	w0, [x3, #-1]!
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:533
+    1ea4:	b5ffff82 	cbnz	x2, 1e94 <kprintf.constprop.0+0x348>
+    1ea8:	1400007b 	b	2094 <kprintf.constprop.0+0x548>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:390
+    1eac:	3747fd55 	tbnz	w21, #8, 1e54 <kprintf.constprop.0+0x308>
+    1eb0:	374ffd35 	tbnz	w21, #9, 1e54 <kprintf.constprop.0+0x308>
+    1eb4:	372ffd15 	tbnz	w21, #5, 1e54 <kprintf.constprop.0+0x308>
+    1eb8:	3727fcf5 	tbnz	w21, #4, 1e54 <kprintf.constprop.0+0x308>
+    1ebc:	36300335 	tbz	w21, #6, 1f20 <kprintf.constprop.0+0x3d4>
+    1ec0:	37f801e4 	tbnz	w4, #31, 1efc <kprintf.constprop.0+0x3b0>
+    1ec4:	91002c73 	add	x19, x3, #0xb
+    1ec8:	2a0403f4 	mov	w20, w4
+    1ecc:	927df273 	and	x19, x19, #0xfffffffffffffff8
+    1ed0:	79800062 	ldrsh	x2, [x3]
+    1ed4:	17ffffe5 	b	1e68 <kprintf.constprop.0+0x31c>
+    1ed8:	11002094 	add	w20, w4, #0x8
+    1edc:	7100029f 	cmp	w20, #0x0
+    1ee0:	5400008d 	b.le	1ef0 <kprintf.constprop.0+0x3a4>
+    1ee4:	91003c73 	add	x19, x3, #0xf
+    1ee8:	927df273 	and	x19, x19, #0xfffffffffffffff8
+    1eec:	17ffffde 	b	1e64 <kprintf.constprop.0+0x318>
+    1ef0:	aa0303f3 	mov	x19, x3
+    1ef4:	8b24c343 	add	x3, x26, w4, sxtw
+    1ef8:	17ffffdb 	b	1e64 <kprintf.constprop.0+0x318>
+    1efc:	11002094 	add	w20, w4, #0x8
+    1f00:	7100029f 	cmp	w20, #0x0
+    1f04:	5400008d 	b.le	1f14 <kprintf.constprop.0+0x3c8>
+    1f08:	91002c73 	add	x19, x3, #0xb
+    1f0c:	927df273 	and	x19, x19, #0xfffffffffffffff8
+    1f10:	17fffff0 	b	1ed0 <kprintf.constprop.0+0x384>
+    1f14:	aa0303f3 	mov	x19, x3
+    1f18:	8b24c343 	add	x3, x26, w4, sxtw
+    1f1c:	17ffffed 	b	1ed0 <kprintf.constprop.0+0x384>
+    1f20:	37f800c4 	tbnz	w4, #31, 1f38 <kprintf.constprop.0+0x3ec>
+    1f24:	91002c73 	add	x19, x3, #0xb
+    1f28:	2a0403f4 	mov	w20, w4
+    1f2c:	927df273 	and	x19, x19, #0xfffffffffffffff8
+    1f30:	b9800062 	ldrsw	x2, [x3]
+    1f34:	17ffffcd 	b	1e68 <kprintf.constprop.0+0x31c>
+    1f38:	11002094 	add	w20, w4, #0x8
+    1f3c:	7100029f 	cmp	w20, #0x0
+    1f40:	5400008d 	b.le	1f50 <kprintf.constprop.0+0x404>
+    1f44:	91002c73 	add	x19, x3, #0xb
+    1f48:	927df273 	and	x19, x19, #0xfffffffffffffff8
+    1f4c:	17fffff9 	b	1f30 <kprintf.constprop.0+0x3e4>
+    1f50:	aa0303f3 	mov	x19, x3
+    1f54:	8b24c343 	add	x3, x26, w4, sxtw
+    1f58:	17fffff6 	b	1f30 <kprintf.constprop.0+0x3e4>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:398
+    1f5c:	36380135 	tbz	w21, #7, 1f80 <kprintf.constprop.0+0x434>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:407
+    1f60:	37f80284 	tbnz	w4, #31, 1fb0 <kprintf.constprop.0+0x464>
+    1f64:	91003c73 	add	x19, x3, #0xf
+    1f68:	2a0403f4 	mov	w20, w4
+    1f6c:	927df273 	and	x19, x19, #0xfffffffffffffff8
+    1f70:	f9400060 	ldr	x0, [x3]
+    1f74:	93407f21 	sxtw	x1, w25
+    1f78:	f9000001 	str	x1, [x0]
+    1f7c:	17ffff0b 	b	1ba8 <kprintf.constprop.0+0x5c>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:400
+    1f80:	3747ff15 	tbnz	w21, #8, 1f60 <kprintf.constprop.0+0x414>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:402
+    1f84:	374ffef5 	tbnz	w21, #9, 1f60 <kprintf.constprop.0+0x414>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:404
+    1f88:	372ffed5 	tbnz	w21, #5, 1f60 <kprintf.constprop.0+0x414>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:406
+    1f8c:	3727feb5 	tbnz	w21, #4, 1f60 <kprintf.constprop.0+0x414>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:408
+    1f90:	36300355 	tbz	w21, #6, 1ff8 <kprintf.constprop.0+0x4ac>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:409
+    1f94:	37f80204 	tbnz	w4, #31, 1fd4 <kprintf.constprop.0+0x488>
+    1f98:	91003c73 	add	x19, x3, #0xf
+    1f9c:	2a0403f4 	mov	w20, w4
+    1fa0:	927df273 	and	x19, x19, #0xfffffffffffffff8
+    1fa4:	f9400060 	ldr	x0, [x3]
+    1fa8:	79000019 	strh	w25, [x0]
+    1fac:	17fffeff 	b	1ba8 <kprintf.constprop.0+0x5c>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:407
+    1fb0:	11002094 	add	w20, w4, #0x8
+    1fb4:	7100029f 	cmp	w20, #0x0
+    1fb8:	5400008d 	b.le	1fc8 <kprintf.constprop.0+0x47c>
+    1fbc:	91003c73 	add	x19, x3, #0xf
+    1fc0:	927df273 	and	x19, x19, #0xfffffffffffffff8
+    1fc4:	17ffffeb 	b	1f70 <kprintf.constprop.0+0x424>
+    1fc8:	aa0303f3 	mov	x19, x3
+    1fcc:	8b24c343 	add	x3, x26, w4, sxtw
+    1fd0:	17ffffe8 	b	1f70 <kprintf.constprop.0+0x424>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:409
+    1fd4:	11002094 	add	w20, w4, #0x8
+    1fd8:	7100029f 	cmp	w20, #0x0
+    1fdc:	5400008d 	b.le	1fec <kprintf.constprop.0+0x4a0>
+    1fe0:	91003c73 	add	x19, x3, #0xf
+    1fe4:	927df273 	and	x19, x19, #0xfffffffffffffff8
+    1fe8:	17ffffef 	b	1fa4 <kprintf.constprop.0+0x458>
+    1fec:	aa0303f3 	mov	x19, x3
+    1ff0:	8b24c343 	add	x3, x26, w4, sxtw
+    1ff4:	17ffffec 	b	1fa4 <kprintf.constprop.0+0x458>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:411
+    1ff8:	37f800e4 	tbnz	w4, #31, 2014 <kprintf.constprop.0+0x4c8>
+    1ffc:	91003c73 	add	x19, x3, #0xf
+    2000:	2a0403f4 	mov	w20, w4
+    2004:	927df273 	and	x19, x19, #0xfffffffffffffff8
+    2008:	f9400060 	ldr	x0, [x3]
+    200c:	b9000019 	str	w25, [x0]
+    2010:	17fffee6 	b	1ba8 <kprintf.constprop.0+0x5c>
+    2014:	11002094 	add	w20, w4, #0x8
+    2018:	7100029f 	cmp	w20, #0x0
+    201c:	5400008d 	b.le	202c <kprintf.constprop.0+0x4e0>
+    2020:	91003c73 	add	x19, x3, #0xf
+    2024:	927df273 	and	x19, x19, #0xfffffffffffffff8
+    2028:	17fffff8 	b	2008 <kprintf.constprop.0+0x4bc>
+    202c:	aa0303f3 	mov	x19, x3
+    2030:	8b24c343 	add	x3, x26, w4, sxtw
+    2034:	17fffff5 	b	2008 <kprintf.constprop.0+0x4bc>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:414
+    2038:	321c02b5 	orr	w21, w21, #0x10
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:417
+    203c:	36380355 	tbz	w21, #7, 20a4 <kprintf.constprop.0+0x558>
+    2040:	37f80484 	tbnz	w4, #31, 20d0 <kprintf.constprop.0+0x584>
+    2044:	91003c73 	add	x19, x3, #0xf
+    2048:	2a0403f4 	mov	w20, w4
+    204c:	927df273 	and	x19, x19, #0xfffffffffffffff8
+    2050:	f9400062 	ldr	x2, [x3]
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:494
+    2054:	310004bf 	cmn	w5, #0x1
+    2058:	52800001 	mov	w1, #0x0                   	// #0
+    205c:	54002b01 	b.ne	25bc <kprintf.constprop.0+0xa70>  // b.any
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:502
+    2060:	91009583 	add	x3, x12, #0x25
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:512
+    2064:	12000840 	and	w0, w2, #0x7
+    2068:	aa0303e4 	mov	x4, x3
+    206c:	1100c000 	add	w0, w0, #0x30
+    2070:	381ffc60 	strb	w0, [x3, #-1]!
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:513
+    2074:	d343fc42 	lsr	x2, x2, #3
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:514
+    2078:	b5ffff62 	cbnz	x2, 2064 <kprintf.constprop.0+0x518>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:516
+    207c:	360000d5 	tbz	w21, #0, 2094 <kprintf.constprop.0+0x548>
+    2080:	7100c01f 	cmp	w0, #0x30
+    2084:	54000080 	b.eq	2094 <kprintf.constprop.0+0x548>  // b.none
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:517
+    2088:	52800600 	mov	w0, #0x30                  	// #48
+    208c:	381ff060 	sturb	w0, [x3, #-1]
+    2090:	d1000883 	sub	x3, x4, #0x2
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:543
+    2094:	91009580 	add	x0, x12, #0x25
+    2098:	2a0503e6 	mov	w6, w5
+    209c:	4b030005 	sub	w5, w0, w3
+    20a0:	1400005b 	b	220c <kprintf.constprop.0+0x6c0>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:417
+    20a4:	3747fcf5 	tbnz	w21, #8, 2040 <kprintf.constprop.0+0x4f4>
+    20a8:	374ffcd5 	tbnz	w21, #9, 2040 <kprintf.constprop.0+0x4f4>
+    20ac:	372ffcb5 	tbnz	w21, #5, 2040 <kprintf.constprop.0+0x4f4>
+    20b0:	3727fc95 	tbnz	w21, #4, 2040 <kprintf.constprop.0+0x4f4>
+    20b4:	36300335 	tbz	w21, #6, 2118 <kprintf.constprop.0+0x5cc>
+    20b8:	37f801e4 	tbnz	w4, #31, 20f4 <kprintf.constprop.0+0x5a8>
+    20bc:	91002c73 	add	x19, x3, #0xb
+    20c0:	2a0403f4 	mov	w20, w4
+    20c4:	927df273 	and	x19, x19, #0xfffffffffffffff8
+    20c8:	79400062 	ldrh	w2, [x3]
+    20cc:	17ffffe2 	b	2054 <kprintf.constprop.0+0x508>
+    20d0:	11002094 	add	w20, w4, #0x8
+    20d4:	7100029f 	cmp	w20, #0x0
+    20d8:	5400008d 	b.le	20e8 <kprintf.constprop.0+0x59c>
+    20dc:	91003c73 	add	x19, x3, #0xf
+    20e0:	927df273 	and	x19, x19, #0xfffffffffffffff8
+    20e4:	17ffffdb 	b	2050 <kprintf.constprop.0+0x504>
+    20e8:	aa0303f3 	mov	x19, x3
+    20ec:	8b24c343 	add	x3, x26, w4, sxtw
+    20f0:	17ffffd8 	b	2050 <kprintf.constprop.0+0x504>
+    20f4:	11002094 	add	w20, w4, #0x8
+    20f8:	7100029f 	cmp	w20, #0x0
+    20fc:	5400008d 	b.le	210c <kprintf.constprop.0+0x5c0>
+    2100:	91002c73 	add	x19, x3, #0xb
+    2104:	927df273 	and	x19, x19, #0xfffffffffffffff8
+    2108:	17fffff0 	b	20c8 <kprintf.constprop.0+0x57c>
+    210c:	aa0303f3 	mov	x19, x3
+    2110:	8b24c343 	add	x3, x26, w4, sxtw
+    2114:	17ffffed 	b	20c8 <kprintf.constprop.0+0x57c>
+    2118:	37f800c4 	tbnz	w4, #31, 2130 <kprintf.constprop.0+0x5e4>
+    211c:	91002c73 	add	x19, x3, #0xb
+    2120:	2a0403f4 	mov	w20, w4
+    2124:	927df273 	and	x19, x19, #0xfffffffffffffff8
+    2128:	b9400062 	ldr	w2, [x3]
+    212c:	17ffffca 	b	2054 <kprintf.constprop.0+0x508>
+    2130:	11002094 	add	w20, w4, #0x8
+    2134:	7100029f 	cmp	w20, #0x0
+    2138:	5400008d 	b.le	2148 <kprintf.constprop.0+0x5fc>
+    213c:	91002c73 	add	x19, x3, #0xb
+    2140:	927df273 	and	x19, x19, #0xfffffffffffffff8
+    2144:	17fffff9 	b	2128 <kprintf.constprop.0+0x5dc>
+    2148:	aa0303f3 	mov	x19, x3
+    214c:	8b24c343 	add	x3, x26, w4, sxtw
+    2150:	17fffff6 	b	2128 <kprintf.constprop.0+0x5dc>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:421
+    2154:	b940a3e0 	ldr	w0, [sp, #160]
+    2158:	34000c80 	cbz	w0, 22e8 <kprintf.constprop.0+0x79c>
+    215c:	39400360 	ldrb	w0, [x27]
+    2160:	7101541f 	cmp	w0, #0x55
+    2164:	54000c21 	b.ne	22e8 <kprintf.constprop.0+0x79c>  // b.any
+    2168:	39400760 	ldrb	w0, [x27, #1]
+    216c:	7101b01f 	cmp	w0, #0x6c
+    2170:	54000bc1 	b.ne	22e8 <kprintf.constprop.0+0x79c>  // b.any
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:426
+    2174:	91000b7b 	add	x27, x27, #0x2
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:427
+    2178:	37f80a64 	tbnz	w4, #31, 22c4 <kprintf.constprop.0+0x778>
+    217c:	91003c73 	add	x19, x3, #0xf
+    2180:	2a0403f4 	mov	w20, w4
+    2184:	927df273 	and	x19, x19, #0xfffffffffffffff8
+    2188:	f9400060 	ldr	x0, [x3]
+uuid2str():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:229
+    218c:	90000002 	adrp	x2, 2000 <kprintf.constprop.0+0x4b4>
+    2190:	91331c42 	add	x2, x2, #0xcc7
+    2194:	f9004fec 	str	x12, [sp, #152]
+    2198:	b900a7ea 	str	w10, [sp, #164]
+    219c:	39403c01 	ldrb	w1, [x0, #15]
+    21a0:	39402006 	ldrb	w6, [x0, #8]
+    21a4:	79400c05 	ldrh	w5, [x0, #6]
+    21a8:	39402407 	ldrb	w7, [x0, #9]
+    21ac:	79400804 	ldrh	w4, [x0, #4]
+    21b0:	b9002be1 	str	w1, [sp, #40]
+    21b4:	f90057e8 	str	x8, [sp, #168]
+    21b8:	39403801 	ldrb	w1, [x0, #14]
+    21bc:	b90023e1 	str	w1, [sp, #32]
+    21c0:	39403401 	ldrb	w1, [x0, #13]
+    21c4:	b9001be1 	str	w1, [sp, #24]
+    21c8:	39403001 	ldrb	w1, [x0, #12]
+    21cc:	b90013e1 	str	w1, [sp, #16]
+    21d0:	39402c01 	ldrb	w1, [x0, #11]
+    21d4:	b9000be1 	str	w1, [sp, #8]
+    21d8:	39402801 	ldrb	w1, [x0, #10]
+    21dc:	b90003e1 	str	w1, [sp]
+    21e0:	d28004a1 	mov	x1, #0x25                  	// #37
+    21e4:	b9400003 	ldr	w3, [x0]
+    21e8:	aa0c03e0 	mov	x0, x12
+    21ec:	97fffcfd 	bl	15e0 <snprintk@plt>
+    21f0:	2a0003e5 	mov	w5, w0
+kprintf():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:429
+    21f4:	f9404fec 	ldr	x12, [sp, #152]
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:291
+    21f8:	52800006 	mov	w6, #0x0                   	// #0
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:431
+    21fc:	b940a7ea 	ldr	w10, [sp, #164]
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:430
+    2200:	52800001 	mov	w1, #0x0                   	// #0
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:431
+    2204:	f94057e8 	ldr	x8, [sp, #168]
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:429
+    2208:	aa0c03e3 	mov	x3, x12
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:571
+    220c:	6b0500df 	cmp	w6, w5
+    2210:	1a85a0c4 	csel	w4, w6, w5, ge  // ge = tcont
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:572
+    2214:	340020e1 	cbz	w1, 2630 <kprintf.constprop.0+0xae4>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:573
+    2218:	11000484 	add	w4, w4, #0x1
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:578
+    221c:	6b0a009f 	cmp	w4, w10
+    2220:	1a8aa080 	csel	w0, w4, w10, ge  // ge = tcont
+    2224:	0b000339 	add	w25, w25, w0
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:581
+    2228:	52808080 	mov	w0, #0x404                 	// #1028
+    222c:	6a0002a0 	ands	w0, w21, w0
+    2230:	540000a1 	b.ne	2244 <kprintf.constprop.0+0x6f8>  // b.any
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:582
+    2234:	4b040147 	sub	w7, w10, w4
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:584
+    2238:	52800402 	mov	w2, #0x20                  	// #32
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:583
+    223c:	710000ff 	cmp	w7, #0x0
+    2240:	54001fec 	b.gt	263c <kprintf.constprop.0+0xaf0>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:588
+    2244:	340020a1 	cbz	w1, 2658 <kprintf.constprop.0+0xb0c>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:589
+    2248:	b40000b6 	cbz	x22, 225c <kprintf.constprop.0+0x710>
+    224c:	f100011f 	cmp	x8, #0x0
+    2250:	fa561302 	ccmp	x24, x22, #0x2, ne  // ne = any
+    2254:	54000049 	b.ls	225c <kprintf.constprop.0+0x710>  // b.plast
+    2258:	380016c1 	strb	w1, [x22], #1
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:596
+    225c:	7110001f 	cmp	w0, #0x400
+    2260:	540000a1 	b.ne	2274 <kprintf.constprop.0+0x728>  // b.any
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:597
+    2264:	4b040140 	sub	w0, w10, w4
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:599
+    2268:	52800601 	mov	w1, #0x30                  	// #48
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:598
+    226c:	7100001f 	cmp	w0, #0x0
+    2270:	5400218c 	b.gt	26a0 <kprintf.constprop.0+0xb54>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:603
+    2274:	4b0500c6 	sub	w6, w6, w5
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:605
+    2278:	52800600 	mov	w0, #0x30                  	// #48
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:604
+    227c:	710000df 	cmp	w6, #0x0
+    2280:	540021ec 	b.gt	26bc <kprintf.constprop.0+0xb70>
+    2284:	2a0503e5 	mov	w5, w5
+    2288:	d2800001 	mov	x1, #0x0                   	// #0
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:608
+    228c:	eb05003f 	cmp	x1, x5
+    2290:	54002241 	b.ne	26d8 <kprintf.constprop.0+0xb8c>  // b.any
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:611
+    2294:	3617c8b5 	tbz	w21, #2, 1ba8 <kprintf.constprop.0+0x5c>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:612
+    2298:	4b04014a 	sub	w10, w10, w4
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:614
+    229c:	52800400 	mov	w0, #0x20                  	// #32
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:613
+    22a0:	7100015f 	cmp	w10, #0x0
+    22a4:	54ffc82d 	b.le	1ba8 <kprintf.constprop.0+0x5c>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:614
+    22a8:	b40000b6 	cbz	x22, 22bc <kprintf.constprop.0+0x770>
+    22ac:	f100011f 	cmp	x8, #0x0
+    22b0:	fa561302 	ccmp	x24, x22, #0x2, ne  // ne = any
+    22b4:	54000049 	b.ls	22bc <kprintf.constprop.0+0x770>  // b.plast
+    22b8:	380016c0 	strb	w0, [x22], #1
+    22bc:	5100054a 	sub	w10, w10, #0x1
+    22c0:	17fffff8 	b	22a0 <kprintf.constprop.0+0x754>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:427
+    22c4:	11002094 	add	w20, w4, #0x8
+    22c8:	7100029f 	cmp	w20, #0x0
+    22cc:	5400008d 	b.le	22dc <kprintf.constprop.0+0x790>
+    22d0:	91003c73 	add	x19, x3, #0xf
+    22d4:	927df273 	and	x19, x19, #0xfffffffffffffff8
+    22d8:	17ffffac 	b	2188 <kprintf.constprop.0+0x63c>
+    22dc:	aa0303f3 	mov	x19, x3
+    22e0:	8b24c343 	add	x3, x26, w4, sxtw
+    22e4:	17ffffa9 	b	2188 <kprintf.constprop.0+0x63c>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:441
+    22e8:	37f801e4 	tbnz	w4, #31, 2324 <kprintf.constprop.0+0x7d8>
+    22ec:	91003c73 	add	x19, x3, #0xf
+    22f0:	2a0403f4 	mov	w20, w4
+    22f4:	927df273 	and	x19, x19, #0xfffffffffffffff8
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:443
+    22f8:	90000017 	adrp	x23, 2000 <kprintf.constprop.0+0x4b4>
+    22fc:	91360af7 	add	x23, x23, #0xd82
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:441
+    2300:	f9400062 	ldr	x2, [x3]
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:444
+    2304:	321f02b5 	orr	w21, w21, #0x2
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:443
+    2308:	910046f7 	add	x23, x23, #0x11
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:445
+    230c:	52800f1c 	mov	w28, #0x78                  	// #120
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:494
+    2310:	310004bf 	cmn	w5, #0x1
+    2314:	52800001 	mov	w1, #0x0                   	// #0
+    2318:	54ffdbc0 	b.eq	1e90 <kprintf.constprop.0+0x344>  // b.none
+    231c:	52800040 	mov	w0, #0x2                   	// #2
+    2320:	140000a8 	b	25c0 <kprintf.constprop.0+0xa74>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:441
+    2324:	11002094 	add	w20, w4, #0x8
+    2328:	7100029f 	cmp	w20, #0x0
+    232c:	5400008d 	b.le	233c <kprintf.constprop.0+0x7f0>
+    2330:	91003c73 	add	x19, x3, #0xf
+    2334:	927df273 	and	x19, x19, #0xfffffffffffffff8
+    2338:	17fffff0 	b	22f8 <kprintf.constprop.0+0x7ac>
+    233c:	aa0303f3 	mov	x19, x3
+    2340:	8b24c343 	add	x3, x26, w4, sxtw
+    2344:	17ffffed 	b	22f8 <kprintf.constprop.0+0x7ac>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:448
+    2348:	37f80364 	tbnz	w4, #31, 23b4 <kprintf.constprop.0+0x868>
+    234c:	91003c73 	add	x19, x3, #0xf
+    2350:	2a0403f4 	mov	w20, w4
+    2354:	927df273 	and	x19, x19, #0xfffffffffffffff8
+    2358:	f9400063 	ldr	x3, [x3]
+    235c:	b5000063 	cbnz	x3, 2368 <kprintf.constprop.0+0x81c>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:450
+    2360:	90000003 	adrp	x3, 2000 <kprintf.constprop.0+0x4b4>
+    2364:	91330063 	add	x3, x3, #0xcc0
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:451
+    2368:	310004bf 	cmn	w5, #0x1
+    236c:	54000360 	b.eq	23d8 <kprintf.constprop.0+0x88c>  // b.none
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:457
+    2370:	93407ca2 	sxtw	x2, w5
+    2374:	aa0303e0 	mov	x0, x3
+    2378:	52800001 	mov	w1, #0x0                   	// #0
+    237c:	f9004fe3 	str	x3, [sp, #152]
+    2380:	2914abe5 	stp	w5, w10, [sp, #164]
+    2384:	a90b33e8 	stp	x8, x12, [sp, #176]
+    2388:	97fffc8e 	bl	15c0 <memchr@plt>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:459
+    238c:	2954abe5 	ldp	w5, w10, [sp, #164]
+    2390:	f9404fe3 	ldr	x3, [sp, #152]
+    2394:	a94b33e8 	ldp	x8, x12, [sp, #176]
+    2398:	b4000080 	cbz	x0, 23a8 <kprintf.constprop.0+0x85c>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:460
+    239c:	cb030000 	sub	x0, x0, x3
+    23a0:	6b0000bf 	cmp	w5, w0
+    23a4:	1a80d0a5 	csel	w5, w5, w0, le
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:291
+    23a8:	52800006 	mov	w6, #0x0                   	// #0
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:467
+    23ac:	52800001 	mov	w1, #0x0                   	// #0
+    23b0:	17ffff97 	b	220c <kprintf.constprop.0+0x6c0>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:448
+    23b4:	11002094 	add	w20, w4, #0x8
+    23b8:	7100029f 	cmp	w20, #0x0
+    23bc:	5400008d 	b.le	23cc <kprintf.constprop.0+0x880>
+    23c0:	91003c73 	add	x19, x3, #0xf
+    23c4:	927df273 	and	x19, x19, #0xfffffffffffffff8
+    23c8:	17ffffe4 	b	2358 <kprintf.constprop.0+0x80c>
+    23cc:	aa0303f3 	mov	x19, x3
+    23d0:	8b24c343 	add	x3, x26, w4, sxtw
+    23d4:	17ffffe1 	b	2358 <kprintf.constprop.0+0x80c>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:466
+    23d8:	aa0303e0 	mov	x0, x3
+    23dc:	f9004fe3 	str	x3, [sp, #152]
+    23e0:	b900a7ea 	str	w10, [sp, #164]
+    23e4:	a90ab3e8 	stp	x8, x12, [sp, #168]
+    23e8:	97fffc8e 	bl	1620 <strlen@plt>
+    23ec:	b940a7ea 	ldr	w10, [sp, #164]
+    23f0:	2a0003e5 	mov	w5, w0
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:291
+    23f4:	52800006 	mov	w6, #0x0                   	// #0
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:467
+    23f8:	52800001 	mov	w1, #0x0                   	// #0
+    23fc:	f9404fe3 	ldr	x3, [sp, #152]
+    2400:	a94ab3e8 	ldp	x8, x12, [sp, #168]
+    2404:	17ffff82 	b	220c <kprintf.constprop.0+0x6c0>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:470
+    2408:	321c02b5 	orr	w21, w21, #0x10
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:473
+    240c:	36380235 	tbz	w21, #7, 2450 <kprintf.constprop.0+0x904>
+    2410:	37f80364 	tbnz	w4, #31, 247c <kprintf.constprop.0+0x930>
+    2414:	91003c73 	add	x19, x3, #0xf
+    2418:	2a0403f4 	mov	w20, w4
+    241c:	927df273 	and	x19, x19, #0xfffffffffffffff8
+    2420:	f9400062 	ldr	x2, [x3]
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:488
+    2424:	52800001 	mov	w1, #0x0                   	// #0
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:494
+    2428:	310004bf 	cmn	w5, #0x1
+    242c:	54000d81 	b.ne	25dc <kprintf.constprop.0+0xa90>  // b.any
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:502
+    2430:	91009580 	add	x0, x12, #0x25
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:523
+    2434:	d2800144 	mov	x4, #0xa                   	// #10
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:522
+    2438:	d1000403 	sub	x3, x0, #0x1
+    243c:	f100245f 	cmp	x2, #0x9
+    2440:	54000d28 	b.hi	25e4 <kprintf.constprop.0+0xa98>  // b.pmore
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:526
+    2444:	1100c042 	add	w2, w2, #0x30
+    2448:	381ff002 	sturb	w2, [x0, #-1]
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:527
+    244c:	17ffff12 	b	2094 <kprintf.constprop.0+0x548>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:473
+    2450:	3747fe15 	tbnz	w21, #8, 2410 <kprintf.constprop.0+0x8c4>
+    2454:	374ffdf5 	tbnz	w21, #9, 2410 <kprintf.constprop.0+0x8c4>
+    2458:	372ffdd5 	tbnz	w21, #5, 2410 <kprintf.constprop.0+0x8c4>
+    245c:	3727fdb5 	tbnz	w21, #4, 2410 <kprintf.constprop.0+0x8c4>
+    2460:	36300335 	tbz	w21, #6, 24c4 <kprintf.constprop.0+0x978>
+    2464:	37f801e4 	tbnz	w4, #31, 24a0 <kprintf.constprop.0+0x954>
+    2468:	91002c73 	add	x19, x3, #0xb
+    246c:	2a0403f4 	mov	w20, w4
+    2470:	927df273 	and	x19, x19, #0xfffffffffffffff8
+    2474:	79400062 	ldrh	w2, [x3]
+    2478:	17ffffeb 	b	2424 <kprintf.constprop.0+0x8d8>
+    247c:	11002094 	add	w20, w4, #0x8
+    2480:	7100029f 	cmp	w20, #0x0
+    2484:	5400008d 	b.le	2494 <kprintf.constprop.0+0x948>
+    2488:	91003c73 	add	x19, x3, #0xf
+    248c:	927df273 	and	x19, x19, #0xfffffffffffffff8
+    2490:	17ffffe4 	b	2420 <kprintf.constprop.0+0x8d4>
+    2494:	aa0303f3 	mov	x19, x3
+    2498:	8b24c343 	add	x3, x26, w4, sxtw
+    249c:	17ffffe1 	b	2420 <kprintf.constprop.0+0x8d4>
+    24a0:	11002094 	add	w20, w4, #0x8
+    24a4:	7100029f 	cmp	w20, #0x0
+    24a8:	5400008d 	b.le	24b8 <kprintf.constprop.0+0x96c>
+    24ac:	91002c73 	add	x19, x3, #0xb
+    24b0:	927df273 	and	x19, x19, #0xfffffffffffffff8
+    24b4:	17fffff0 	b	2474 <kprintf.constprop.0+0x928>
+    24b8:	aa0303f3 	mov	x19, x3
+    24bc:	8b24c343 	add	x3, x26, w4, sxtw
+    24c0:	17ffffed 	b	2474 <kprintf.constprop.0+0x928>
+    24c4:	37f800c4 	tbnz	w4, #31, 24dc <kprintf.constprop.0+0x990>
+    24c8:	91002c73 	add	x19, x3, #0xb
+    24cc:	2a0403f4 	mov	w20, w4
+    24d0:	927df273 	and	x19, x19, #0xfffffffffffffff8
+    24d4:	b9400062 	ldr	w2, [x3]
+    24d8:	17ffffd3 	b	2424 <kprintf.constprop.0+0x8d8>
+    24dc:	11002094 	add	w20, w4, #0x8
+    24e0:	7100029f 	cmp	w20, #0x0
+    24e4:	5400008d 	b.le	24f4 <kprintf.constprop.0+0x9a8>
+    24e8:	91002c73 	add	x19, x3, #0xb
+    24ec:	927df273 	and	x19, x19, #0xfffffffffffffff8
+    24f0:	17fffff9 	b	24d4 <kprintf.constprop.0+0x988>
+    24f4:	aa0303f3 	mov	x19, x3
+    24f8:	8b24c343 	add	x3, x26, w4, sxtw
+    24fc:	17fffff6 	b	24d4 <kprintf.constprop.0+0x988>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:477
+    2500:	90000017 	adrp	x23, 2000 <kprintf.constprop.0+0x4b4>
+    2504:	91360af7 	add	x23, x23, #0xd82
+    2508:	17fffdd9 	b	1c6c <kprintf.constprop.0+0x120>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:481
+    250c:	3747bb35 	tbnz	w21, #8, 1c70 <kprintf.constprop.0+0x124>
+    2510:	374fbb15 	tbnz	w21, #9, 1c70 <kprintf.constprop.0+0x124>
+    2514:	372fbaf5 	tbnz	w21, #5, 1c70 <kprintf.constprop.0+0x124>
+    2518:	3727bad5 	tbnz	w21, #4, 1c70 <kprintf.constprop.0+0x124>
+    251c:	36300335 	tbz	w21, #6, 2580 <kprintf.constprop.0+0xa34>
+    2520:	37f801e4 	tbnz	w4, #31, 255c <kprintf.constprop.0+0xa10>
+    2524:	91002c73 	add	x19, x3, #0xb
+    2528:	2a0403f4 	mov	w20, w4
+    252c:	927df273 	and	x19, x19, #0xfffffffffffffff8
+    2530:	79400062 	ldrh	w2, [x3]
+    2534:	17fffdd4 	b	1c84 <kprintf.constprop.0+0x138>
+    2538:	11002094 	add	w20, w4, #0x8
+    253c:	7100029f 	cmp	w20, #0x0
+    2540:	5400008d 	b.le	2550 <kprintf.constprop.0+0xa04>
+    2544:	91003c73 	add	x19, x3, #0xf
+    2548:	927df273 	and	x19, x19, #0xfffffffffffffff8
+    254c:	17fffdcd 	b	1c80 <kprintf.constprop.0+0x134>
+    2550:	aa0303f3 	mov	x19, x3
+    2554:	8b24c343 	add	x3, x26, w4, sxtw
+    2558:	17fffdca 	b	1c80 <kprintf.constprop.0+0x134>
+    255c:	11002094 	add	w20, w4, #0x8
+    2560:	7100029f 	cmp	w20, #0x0
+    2564:	5400008d 	b.le	2574 <kprintf.constprop.0+0xa28>
+    2568:	91002c73 	add	x19, x3, #0xb
+    256c:	927df273 	and	x19, x19, #0xfffffffffffffff8
+    2570:	17fffff0 	b	2530 <kprintf.constprop.0+0x9e4>
+    2574:	aa0303f3 	mov	x19, x3
+    2578:	8b24c343 	add	x3, x26, w4, sxtw
+    257c:	17ffffed 	b	2530 <kprintf.constprop.0+0x9e4>
+    2580:	37f800c4 	tbnz	w4, #31, 2598 <kprintf.constprop.0+0xa4c>
+    2584:	91002c73 	add	x19, x3, #0xb
+    2588:	2a0403f4 	mov	w20, w4
+    258c:	927df273 	and	x19, x19, #0xfffffffffffffff8
+    2590:	b9400062 	ldr	w2, [x3]
+    2594:	17fffdbc 	b	1c84 <kprintf.constprop.0+0x138>
+    2598:	11002094 	add	w20, w4, #0x8
+    259c:	7100029f 	cmp	w20, #0x0
+    25a0:	5400008d 	b.le	25b0 <kprintf.constprop.0+0xa64>
+    25a4:	91002c73 	add	x19, x3, #0xb
+    25a8:	927df273 	and	x19, x19, #0xfffffffffffffff8
+    25ac:	17fffff9 	b	2590 <kprintf.constprop.0+0xa44>
+    25b0:	aa0303f3 	mov	x19, x3
+    25b4:	8b24c343 	add	x3, x26, w4, sxtw
+    25b8:	17fffff6 	b	2590 <kprintf.constprop.0+0xa44>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:494
+    25bc:	52800000 	mov	w0, #0x0                   	// #0
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:503
+    25c0:	f100005f 	cmp	x2, #0x0
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:495
+    25c4:	12157ab5 	and	w21, w21, #0xfffffbff
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:503
+    25c8:	7a4008a0 	ccmp	w5, #0x0, #0x0, eq  // eq = none
+    25cc:	54ffc5a1 	b.ne	1e80 <kprintf.constprop.0+0x334>  // b.any
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:502
+    25d0:	91009583 	add	x3, x12, #0x25
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:542
+    25d4:	52800005 	mov	w5, #0x0                   	// #0
+    25d8:	17fffeaf 	b	2094 <kprintf.constprop.0+0x548>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:494
+    25dc:	52800020 	mov	w0, #0x1                   	// #1
+    25e0:	17fffff8 	b	25c0 <kprintf.constprop.0+0xa74>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:523
+    25e4:	9ac40846 	udiv	x6, x2, x4
+    25e8:	9b0488c2 	msub	x2, x6, x4, x2
+    25ec:	1100c042 	add	w2, w2, #0x30
+    25f0:	381ff002 	sturb	w2, [x0, #-1]
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:524
+    25f4:	aa0603e2 	mov	x2, x6
+    25f8:	aa0303e0 	mov	x0, x3
+    25fc:	17ffff8f 	b	2438 <kprintf.constprop.0+0x8ec>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:547
+    2600:	35ffb55c 	cbnz	w28, 1ca8 <kprintf.constprop.0+0x15c>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:619
+    2604:	b4000048 	cbz	x8, 260c <kprintf.constprop.0+0xac0>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:620
+    2608:	f9000116 	str	x22, [x8]
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:622
+    260c:	2a1903e0 	mov	w0, w25
+    2610:	a9437bfd 	ldp	x29, x30, [sp, #48]
+    2614:	a94453f3 	ldp	x19, x20, [sp, #64]
+    2618:	a9455bf5 	ldp	x21, x22, [sp, #80]
+    261c:	a94663f7 	ldp	x23, x24, [sp, #96]
+    2620:	a9476bf9 	ldp	x25, x26, [sp, #112]
+    2624:	a94873fb 	ldp	x27, x28, [sp, #128]
+    2628:	9103c3ff 	add	sp, sp, #0xf0
+    262c:	d65f03c0 	ret
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:574
+    2630:	360fdf75 	tbz	w21, #1, 221c <kprintf.constprop.0+0x6d0>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:575
+    2634:	11000884 	add	w4, w4, #0x2
+    2638:	17fffef9 	b	221c <kprintf.constprop.0+0x6d0>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:584
+    263c:	b40000b6 	cbz	x22, 2650 <kprintf.constprop.0+0xb04>
+    2640:	f100011f 	cmp	x8, #0x0
+    2644:	fa561302 	ccmp	x24, x22, #0x2, ne  // ne = any
+    2648:	54000049 	b.ls	2650 <kprintf.constprop.0+0xb04>  // b.plast
+    264c:	380016c2 	strb	w2, [x22], #1
+    2650:	510004e7 	sub	w7, w7, #0x1
+    2654:	17fffefa 	b	223c <kprintf.constprop.0+0x6f0>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:590
+    2658:	360fe035 	tbz	w21, #1, 225c <kprintf.constprop.0+0x710>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:591
+    265c:	b4ffe016 	cbz	x22, 225c <kprintf.constprop.0+0x710>
+    2660:	f100011f 	cmp	x8, #0x0
+    2664:	1a9f17e2 	cset	w2, eq  // eq = none
+    2668:	7100005f 	cmp	w2, #0x0
+    266c:	fa560302 	ccmp	x24, x22, #0x2, eq  // eq = none
+    2670:	54ffdf69 	b.ls	225c <kprintf.constprop.0+0x710>  // b.plast
+    2674:	aa1603e1 	mov	x1, x22
+    2678:	52800607 	mov	w7, #0x30                  	// #48
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:592
+    267c:	7100005f 	cmp	w2, #0x0
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:591
+    2680:	38001427 	strb	w7, [x1], #1
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:592
+    2684:	fa410302 	ccmp	x24, x1, #0x2, eq  // eq = none
+    2688:	54000089 	b.ls	2698 <kprintf.constprop.0+0xb4c>  // b.plast
+    268c:	91000ad6 	add	x22, x22, #0x2
+    2690:	381ff2dc 	sturb	w28, [x22, #-1]
+    2694:	17fffef2 	b	225c <kprintf.constprop.0+0x710>
+    2698:	aa0103f6 	mov	x22, x1
+    269c:	17fffef0 	b	225c <kprintf.constprop.0+0x710>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:599
+    26a0:	b40000b6 	cbz	x22, 26b4 <kprintf.constprop.0+0xb68>
+    26a4:	f100011f 	cmp	x8, #0x0
+    26a8:	fa561302 	ccmp	x24, x22, #0x2, ne  // ne = any
+    26ac:	54000049 	b.ls	26b4 <kprintf.constprop.0+0xb68>  // b.plast
+    26b0:	380016c1 	strb	w1, [x22], #1
+    26b4:	51000400 	sub	w0, w0, #0x1
+    26b8:	17fffeed 	b	226c <kprintf.constprop.0+0x720>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:605
+    26bc:	b40000b6 	cbz	x22, 26d0 <kprintf.constprop.0+0xb84>
+    26c0:	f100011f 	cmp	x8, #0x0
+    26c4:	fa561302 	ccmp	x24, x22, #0x2, ne  // ne = any
+    26c8:	54000049 	b.ls	26d0 <kprintf.constprop.0+0xb84>  // b.plast
+    26cc:	380016c0 	strb	w0, [x22], #1
+    26d0:	510004c6 	sub	w6, w6, #0x1
+    26d4:	17fffeea 	b	227c <kprintf.constprop.0+0x730>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:609
+    26d8:	b40000d6 	cbz	x22, 26f0 <kprintf.constprop.0+0xba4>
+    26dc:	f100011f 	cmp	x8, #0x0
+    26e0:	fa561302 	ccmp	x24, x22, #0x2, ne  // ne = any
+    26e4:	54000069 	b.ls	26f0 <kprintf.constprop.0+0xba4>  // b.plast
+    26e8:	38616860 	ldrb	w0, [x3, x1]
+    26ec:	380016c0 	strb	w0, [x22], #1
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:608
+    26f0:	91000421 	add	x1, x1, #0x1
+    26f4:	17fffee6 	b	228c <kprintf.constprop.0+0x740>
+
+00000000000026f8 <__vsprintf>:
+__vsprintf():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:155
+    26f8:	a9bc7bfd 	stp	x29, x30, [sp, #-64]!
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:156
+    26fc:	910083e3 	add	x3, sp, #0x20
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:155
+    2700:	910003fd 	mov	x29, sp
+    2704:	a90153f3 	stp	x19, x20, [sp, #16]
+    2708:	aa0003f4 	mov	x20, x0
+    270c:	aa0103f3 	mov	x19, x1
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:156
+    2710:	aa0303e0 	mov	x0, x3
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:155
+    2714:	aa0203e1 	mov	x1, x2
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:156
+    2718:	d2800402 	mov	x2, #0x20                  	// #32
+    271c:	97fffb99 	bl	1580 <memcpy@plt>
+    2720:	aa1403e2 	mov	x2, x20
+    2724:	aa0003e3 	mov	x3, x0
+    2728:	52800004 	mov	w4, #0x0                   	// #0
+    272c:	aa1303e0 	mov	x0, x19
+    2730:	d2800001 	mov	x1, #0x0                   	// #0
+    2734:	97fffd06 	bl	1b4c <kprintf.constprop.0>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/ext/snprintk.c:157
+    2738:	a94153f3 	ldp	x19, x20, [sp, #16]
+    273c:	a8c47bfd 	ldp	x29, x30, [sp], #64
+    2740:	d65f03c0 	ret
+
+0000000000002744 <memchr>:
+memchr():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/isoc/newlib/memchr.c:109
+    2744:	12001c21 	and	w1, w1, #0xff
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/isoc/newlib/memchr.c:153
+    2748:	8b020002 	add	x2, x0, x2
+    274c:	eb02001f 	cmp	x0, x2
+    2750:	54000061 	b.ne	275c <memchr+0x18>  // b.any
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/isoc/newlib/memchr.c:159
+    2754:	d2800000 	mov	x0, #0x0                   	// #0
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/isoc/newlib/memchr.c:160
+    2758:	d65f03c0 	ret
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/isoc/newlib/memchr.c:154
+    275c:	39400003 	ldrb	w3, [x0]
+    2760:	6b01007f 	cmp	w3, w1
+    2764:	54ffffa0 	b.eq	2758 <memchr+0x14>  // b.none
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/isoc/newlib/memchr.c:156
+    2768:	91000400 	add	x0, x0, #0x1
+    276c:	17fffff8 	b	274c <memchr+0x8>
+
+0000000000002770 <strlen>:
+strlen():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/isoc/newlib/strlen.c:117
+    2770:	aa0003e1 	mov	x1, x0
+    2774:	39400022 	ldrb	w2, [x1]
+    2778:	35000062 	cbnz	w2, 2784 <strlen+0x14>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/isoc/newlib/strlen.c:120
+    277c:	cb000020 	sub	x0, x1, x0
+    2780:	d65f03c0 	ret
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/isoc/newlib/strlen.c:118
+    2784:	91000421 	add	x1, x1, #0x1
+    2788:	17fffffb 	b	2774 <strlen+0x4>
+
+000000000000278c <trace_ext_puts>:
+trace_ext_puts():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutee/trace_ext.c:22
+    278c:	a9be7bfd 	stp	x29, x30, [sp, #-32]!
+    2790:	910003fd 	mov	x29, sp
+    2794:	f9000bf3 	str	x19, [sp, #16]
+    2798:	aa0003f3 	mov	x19, x0
+/home/jayanth/quemu-v8/source/optee_os/lib/libutee/trace_ext.c:26
+    279c:	97fffba1 	bl	1620 <strlen@plt>
+    27a0:	aa0003e1 	mov	x1, x0
+    27a4:	aa1303e0 	mov	x0, x19
+/home/jayanth/quemu-v8/source/optee_os/lib/libutee/trace_ext.c:28
+    27a8:	f9400bf3 	ldr	x19, [sp, #16]
+    27ac:	a8c27bfd 	ldp	x29, x30, [sp], #32
+/home/jayanth/quemu-v8/source/optee_os/lib/libutee/trace_ext.c:26
+    27b0:	17fffb68 	b	1550 <_utee_log@plt>
+
+00000000000027b4 <trace_ext_get_thread_id>:
+trace_ext_get_thread_id():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutee/trace_ext.c:33
+    27b4:	12800000 	mov	w0, #0xffffffff            	// #-1
+    27b8:	d65f03c0 	ret
+
+00000000000027bc <printf>:
+printf():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutee/trace_ext.c:41
+    27bc:	d10883ff 	sub	sp, sp, #0x220
+    27c0:	a9007bfd 	stp	x29, x30, [sp]
+    27c4:	910003fd 	mov	x29, sp
+    27c8:	a90153f3 	stp	x19, x20, [sp, #16]
+    27cc:	aa0003f3 	mov	x19, x0
+    27d0:	3d805be0 	str	q0, [sp, #352]
+    27d4:	3d805fe1 	str	q1, [sp, #368]
+    27d8:	3d8063e2 	str	q2, [sp, #384]
+    27dc:	3d8067e3 	str	q3, [sp, #400]
+    27e0:	3d806be4 	str	q4, [sp, #416]
+    27e4:	3d806fe5 	str	q5, [sp, #432]
+    27e8:	3d8073e6 	str	q6, [sp, #448]
+    27ec:	3d8077e7 	str	q7, [sp, #464]
+    27f0:	a91e8be1 	stp	x1, x2, [sp, #488]
+    27f4:	a91f93e3 	stp	x3, x4, [sp, #504]
+    27f8:	f90107e5 	str	x5, [sp, #520]
+    27fc:	f9010be6 	str	x6, [sp, #528]
+    2800:	f9010fe7 	str	x7, [sp, #536]
+/home/jayanth/quemu-v8/source/optee_os/lib/libutee/trace_ext.c:46
+    2804:	97fffb73 	bl	15d0 <trace_get_level@plt>
+    2808:	7100001f 	cmp	w0, #0x0
+    280c:	5400038d 	b.le	287c <printf+0xc0>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutee/trace_ext.c:49
+    2810:	910883e0 	add	x0, sp, #0x220
+    2814:	a90403e0 	stp	x0, x0, [sp, #64]
+    2818:	910783e0 	add	x0, sp, #0x1e0
+    281c:	f9002be0 	str	x0, [sp, #80]
+    2820:	128006e0 	mov	w0, #0xffffffc8            	// #-56
+    2824:	b9005be0 	str	w0, [sp, #88]
+    2828:	12800fe0 	mov	w0, #0xffffff80            	// #-128
+    282c:	b9005fe0 	str	w0, [sp, #92]
+/home/jayanth/quemu-v8/source/optee_os/lib/libutee/trace_ext.c:50
+    2830:	910183f4 	add	x20, sp, #0x60
+    2834:	a94407e0 	ldp	x0, x1, [sp, #64]
+    2838:	a90207e0 	stp	x0, x1, [sp, #32]
+    283c:	aa1303e2 	mov	x2, x19
+    2840:	a94507e0 	ldp	x0, x1, [sp, #80]
+    2844:	910083e3 	add	x3, sp, #0x20
+    2848:	a90307e0 	stp	x0, x1, [sp, #48]
+    284c:	aa1403e0 	mov	x0, x20
+    2850:	d2802001 	mov	x1, #0x100                 	// #256
+    2854:	97fffb4f 	bl	1590 <vsnprintf@plt>
+    2858:	2a0003f3 	mov	w19, w0
+/home/jayanth/quemu-v8/source/optee_os/lib/libutee/trace_ext.c:53
+    285c:	37f80060 	tbnz	w0, #31, 2868 <printf+0xac>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutee/trace_ext.c:56
+    2860:	aa1403e0 	mov	x0, x20
+    2864:	97fffb67 	bl	1600 <trace_ext_puts@plt>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutee/trace_ext.c:59
+    2868:	2a1303e0 	mov	w0, w19
+    286c:	a9407bfd 	ldp	x29, x30, [sp]
+    2870:	a94153f3 	ldp	x19, x20, [sp, #16]
+    2874:	910883ff 	add	sp, sp, #0x220
+    2878:	d65f03c0 	ret
+/home/jayanth/quemu-v8/source/optee_os/lib/libutee/trace_ext.c:47
+    287c:	52800013 	mov	w19, #0x0                   	// #0
+    2880:	17fffffa 	b	2868 <printf+0xac>
+
+0000000000002884 <puts>:
+puts():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutee/trace_ext.c:62
+    2884:	a9be7bfd 	stp	x29, x30, [sp, #-32]!
+    2888:	910003fd 	mov	x29, sp
+    288c:	f9000bf3 	str	x19, [sp, #16]
+    2890:	aa0003f3 	mov	x19, x0
+/home/jayanth/quemu-v8/source/optee_os/lib/libutee/trace_ext.c:63
+    2894:	97fffb4f 	bl	15d0 <trace_get_level@plt>
+    2898:	7100001f 	cmp	w0, #0x0
+    289c:	540000cd 	b.le	28b4 <puts+0x30>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutee/trace_ext.c:64
+    28a0:	aa1303e0 	mov	x0, x19
+    28a4:	97fffb57 	bl	1600 <trace_ext_puts@plt>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutee/trace_ext.c:65
+    28a8:	90000000 	adrp	x0, 2000 <kprintf.constprop.0+0x4b4>
+    28ac:	91326c00 	add	x0, x0, #0xc9b
+    28b0:	97fffb54 	bl	1600 <trace_ext_puts@plt>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutee/trace_ext.c:68
+    28b4:	52800020 	mov	w0, #0x1                   	// #1
+    28b8:	f9400bf3 	ldr	x19, [sp, #16]
+    28bc:	a8c27bfd 	ldp	x29, x30, [sp], #32
+    28c0:	d65f03c0 	ret
+
+00000000000028c4 <putchar>:
+putchar():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutee/trace_ext.c:71
+    28c4:	a9bd7bfd 	stp	x29, x30, [sp, #-48]!
+    28c8:	910003fd 	mov	x29, sp
+    28cc:	f9000bf3 	str	x19, [sp, #16]
+    28d0:	2a0003f3 	mov	w19, w0
+/home/jayanth/quemu-v8/source/optee_os/lib/libutee/trace_ext.c:72
+    28d4:	3900a3e0 	strb	w0, [sp, #40]
+    28d8:	3900a7ff 	strb	wzr, [sp, #41]
+/home/jayanth/quemu-v8/source/optee_os/lib/libutee/trace_ext.c:74
+    28dc:	97fffb3d 	bl	15d0 <trace_get_level@plt>
+    28e0:	7100001f 	cmp	w0, #0x0
+    28e4:	5400006d 	b.le	28f0 <putchar+0x2c>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutee/trace_ext.c:75
+    28e8:	9100a3e0 	add	x0, sp, #0x28
+    28ec:	97fffb45 	bl	1600 <trace_ext_puts@plt>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutee/trace_ext.c:82
+    28f0:	12001e60 	and	w0, w19, #0xff
+    28f4:	f9400bf3 	ldr	x19, [sp, #16]
+    28f8:	a8c37bfd 	ldp	x29, x30, [sp], #48
+    28fc:	d65f03c0 	ret
+
+0000000000002900 <_utee_panic>:
+_utee_panic():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutee/arch/arm/utee_syscalls_a64.S:41
+    2900:	a9bf7bfd 	stp	x29, x30, [sp, #-16]!
+/home/jayanth/quemu-v8/source/optee_os/lib/libutee/arch/arm/utee_syscalls_a64.S:42
+    2904:	910003e1 	mov	x1, sp
+/home/jayanth/quemu-v8/source/optee_os/lib/libutee/arch/arm/utee_syscalls_a64.S:43
+    2908:	97fffb2a 	bl	15b0 <__utee_panic@plt>
+
+000000000000290c <_utee_return>:
+_utee_return():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutee/arch/arm/utee_syscalls_asm.S:8
+    290c:	d2800008 	mov	x8, #0x0                   	// #0
+    2910:	d4000001 	svc	#0x0
+    2914:	d65f03c0 	ret
+
+0000000000002918 <_utee_log>:
+_utee_log():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutee/arch/arm/utee_syscalls_asm.S:10
+    2918:	d2800028 	mov	x8, #0x1                   	// #1
+    291c:	d4000001 	svc	#0x0
+    2920:	d65f03c0 	ret
+
+0000000000002924 <__utee_panic>:
+__utee_panic():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutee/arch/arm/utee_syscalls_asm.S:12
+    2924:	d2800048 	mov	x8, #0x2                   	// #2
+    2928:	d4000001 	svc	#0x0
+    292c:	d65f03c0 	ret
+
+0000000000002930 <_utee_get_property>:
+_utee_get_property():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutee/arch/arm/utee_syscalls_asm.S:14
+    2930:	d2800068 	mov	x8, #0x3                   	// #3
+    2934:	d4000001 	svc	#0x0
+    2938:	d65f03c0 	ret
+
+000000000000293c <_utee_get_property_name_to_index>:
+_utee_get_property_name_to_index():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutee/arch/arm/utee_syscalls_asm.S:16
+    293c:	d2800088 	mov	x8, #0x4                   	// #4
+    2940:	d4000001 	svc	#0x0
+    2944:	d65f03c0 	ret
+
+0000000000002948 <_utee_open_ta_session>:
+_utee_open_ta_session():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutee/arch/arm/utee_syscalls_asm.S:19
+    2948:	d28000a8 	mov	x8, #0x5                   	// #5
+    294c:	d4000001 	svc	#0x0
+    2950:	d65f03c0 	ret
+
+0000000000002954 <_utee_close_ta_session>:
+_utee_close_ta_session():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutee/arch/arm/utee_syscalls_asm.S:21
+    2954:	d28000c8 	mov	x8, #0x6                   	// #6
+    2958:	d4000001 	svc	#0x0
+    295c:	d65f03c0 	ret
+
+0000000000002960 <_utee_invoke_ta_command>:
+_utee_invoke_ta_command():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutee/arch/arm/utee_syscalls_asm.S:23
+    2960:	d28000e8 	mov	x8, #0x7                   	// #7
+    2964:	d4000001 	svc	#0x0
+    2968:	d65f03c0 	ret
+
+000000000000296c <_utee_get_cancellation_flag>:
+_utee_get_cancellation_flag():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutee/arch/arm/utee_syscalls_asm.S:25
+    296c:	d2800128 	mov	x8, #0x9                   	// #9
+    2970:	d4000001 	svc	#0x0
+    2974:	d65f03c0 	ret
+
+0000000000002978 <_utee_check_access_rights>:
+_utee_check_access_rights():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutee/arch/arm/utee_syscalls_asm.S:28
+    2978:	d2800108 	mov	x8, #0x8                   	// #8
+    297c:	d4000001 	svc	#0x0
+    2980:	d65f03c0 	ret
+
+0000000000002984 <_utee_unmask_cancellation>:
+_utee_unmask_cancellation():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutee/arch/arm/utee_syscalls_asm.S:30
+    2984:	d2800148 	mov	x8, #0xa                   	// #10
+    2988:	d4000001 	svc	#0x0
+    298c:	d65f03c0 	ret
+
+0000000000002990 <_utee_mask_cancellation>:
+_utee_mask_cancellation():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutee/arch/arm/utee_syscalls_asm.S:32
+    2990:	d2800168 	mov	x8, #0xb                   	// #11
+    2994:	d4000001 	svc	#0x0
+    2998:	d65f03c0 	ret
+
+000000000000299c <_utee_wait>:
+_utee_wait():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutee/arch/arm/utee_syscalls_asm.S:34
+    299c:	d2800188 	mov	x8, #0xc                   	// #12
+    29a0:	d4000001 	svc	#0x0
+    29a4:	d65f03c0 	ret
+
+00000000000029a8 <_utee_get_time>:
+_utee_get_time():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutee/arch/arm/utee_syscalls_asm.S:36
+    29a8:	d28001a8 	mov	x8, #0xd                   	// #13
+    29ac:	d4000001 	svc	#0x0
+    29b0:	d65f03c0 	ret
+
+00000000000029b4 <_utee_set_ta_time>:
+_utee_set_ta_time():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutee/arch/arm/utee_syscalls_asm.S:38
+    29b4:	d28001c8 	mov	x8, #0xe                   	// #14
+    29b8:	d4000001 	svc	#0x0
+    29bc:	d65f03c0 	ret
+
+00000000000029c0 <_utee_cryp_state_alloc>:
+_utee_cryp_state_alloc():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutee/arch/arm/utee_syscalls_asm.S:40
+    29c0:	d28001e8 	mov	x8, #0xf                   	// #15
+    29c4:	d4000001 	svc	#0x0
+    29c8:	d65f03c0 	ret
+
+00000000000029cc <_utee_cryp_state_copy>:
+_utee_cryp_state_copy():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutee/arch/arm/utee_syscalls_asm.S:42
+    29cc:	d2800208 	mov	x8, #0x10                  	// #16
+    29d0:	d4000001 	svc	#0x0
+    29d4:	d65f03c0 	ret
+
+00000000000029d8 <_utee_cryp_state_free>:
+_utee_cryp_state_free():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutee/arch/arm/utee_syscalls_asm.S:44
+    29d8:	d2800228 	mov	x8, #0x11                  	// #17
+    29dc:	d4000001 	svc	#0x0
+    29e0:	d65f03c0 	ret
+
+00000000000029e4 <_utee_hash_init>:
+_utee_hash_init():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutee/arch/arm/utee_syscalls_asm.S:46
+    29e4:	d2800248 	mov	x8, #0x12                  	// #18
+    29e8:	d4000001 	svc	#0x0
+    29ec:	d65f03c0 	ret
+
+00000000000029f0 <_utee_hash_update>:
+_utee_hash_update():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutee/arch/arm/utee_syscalls_asm.S:48
+    29f0:	d2800268 	mov	x8, #0x13                  	// #19
+    29f4:	d4000001 	svc	#0x0
+    29f8:	d65f03c0 	ret
+
+00000000000029fc <_utee_hash_final>:
+_utee_hash_final():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutee/arch/arm/utee_syscalls_asm.S:50
+    29fc:	d2800288 	mov	x8, #0x14                  	// #20
+    2a00:	d4000001 	svc	#0x0
+    2a04:	d65f03c0 	ret
+
+0000000000002a08 <_utee_cipher_init>:
+_utee_cipher_init():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutee/arch/arm/utee_syscalls_asm.S:52
+    2a08:	d28002a8 	mov	x8, #0x15                  	// #21
+    2a0c:	d4000001 	svc	#0x0
+    2a10:	d65f03c0 	ret
+
+0000000000002a14 <_utee_cipher_update>:
+_utee_cipher_update():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutee/arch/arm/utee_syscalls_asm.S:54
+    2a14:	d28002c8 	mov	x8, #0x16                  	// #22
+    2a18:	d4000001 	svc	#0x0
+    2a1c:	d65f03c0 	ret
+
+0000000000002a20 <_utee_cipher_final>:
+_utee_cipher_final():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutee/arch/arm/utee_syscalls_asm.S:56
+    2a20:	d28002e8 	mov	x8, #0x17                  	// #23
+    2a24:	d4000001 	svc	#0x0
+    2a28:	d65f03c0 	ret
+
+0000000000002a2c <_utee_cryp_obj_get_info>:
+_utee_cryp_obj_get_info():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutee/arch/arm/utee_syscalls_asm.S:58
+    2a2c:	d2800308 	mov	x8, #0x18                  	// #24
+    2a30:	d4000001 	svc	#0x0
+    2a34:	d65f03c0 	ret
+
+0000000000002a38 <_utee_cryp_obj_restrict_usage>:
+_utee_cryp_obj_restrict_usage():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutee/arch/arm/utee_syscalls_asm.S:60
+    2a38:	d2800328 	mov	x8, #0x19                  	// #25
+    2a3c:	d4000001 	svc	#0x0
+    2a40:	d65f03c0 	ret
+
+0000000000002a44 <_utee_cryp_obj_get_attr>:
+_utee_cryp_obj_get_attr():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutee/arch/arm/utee_syscalls_asm.S:63
+    2a44:	d2800348 	mov	x8, #0x1a                  	// #26
+    2a48:	d4000001 	svc	#0x0
+    2a4c:	d65f03c0 	ret
+
+0000000000002a50 <_utee_cryp_obj_alloc>:
+_utee_cryp_obj_alloc():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutee/arch/arm/utee_syscalls_asm.S:65
+    2a50:	d2800368 	mov	x8, #0x1b                  	// #27
+    2a54:	d4000001 	svc	#0x0
+    2a58:	d65f03c0 	ret
+
+0000000000002a5c <_utee_cryp_obj_close>:
+_utee_cryp_obj_close():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutee/arch/arm/utee_syscalls_asm.S:67
+    2a5c:	d2800388 	mov	x8, #0x1c                  	// #28
+    2a60:	d4000001 	svc	#0x0
+    2a64:	d65f03c0 	ret
+
+0000000000002a68 <_utee_cryp_obj_reset>:
+_utee_cryp_obj_reset():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutee/arch/arm/utee_syscalls_asm.S:69
+    2a68:	d28003a8 	mov	x8, #0x1d                  	// #29
+    2a6c:	d4000001 	svc	#0x0
+    2a70:	d65f03c0 	ret
+
+0000000000002a74 <_utee_cryp_obj_populate>:
+_utee_cryp_obj_populate():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutee/arch/arm/utee_syscalls_asm.S:71
+    2a74:	d28003c8 	mov	x8, #0x1e                  	// #30
+    2a78:	d4000001 	svc	#0x0
+    2a7c:	d65f03c0 	ret
+
+0000000000002a80 <_utee_cryp_obj_copy>:
+_utee_cryp_obj_copy():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutee/arch/arm/utee_syscalls_asm.S:73
+    2a80:	d28003e8 	mov	x8, #0x1f                  	// #31
+    2a84:	d4000001 	svc	#0x0
+    2a88:	d65f03c0 	ret
+
+0000000000002a8c <_utee_cryp_derive_key>:
+_utee_cryp_derive_key():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutee/arch/arm/utee_syscalls_asm.S:75
+    2a8c:	d2800408 	mov	x8, #0x20                  	// #32
+    2a90:	d4000001 	svc	#0x0
+    2a94:	d65f03c0 	ret
+
+0000000000002a98 <_utee_cryp_random_number_generate>:
+_utee_cryp_random_number_generate():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutee/arch/arm/utee_syscalls_asm.S:77
+    2a98:	d2800428 	mov	x8, #0x21                  	// #33
+    2a9c:	d4000001 	svc	#0x0
+    2aa0:	d65f03c0 	ret
+
+0000000000002aa4 <_utee_authenc_init>:
+_utee_authenc_init():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutee/arch/arm/utee_syscalls_asm.S:80
+    2aa4:	d2800448 	mov	x8, #0x22                  	// #34
+    2aa8:	d4000001 	svc	#0x0
+    2aac:	d65f03c0 	ret
+
+0000000000002ab0 <_utee_authenc_update_aad>:
+_utee_authenc_update_aad():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutee/arch/arm/utee_syscalls_asm.S:82
+    2ab0:	d2800468 	mov	x8, #0x23                  	// #35
+    2ab4:	d4000001 	svc	#0x0
+    2ab8:	d65f03c0 	ret
+
+0000000000002abc <_utee_authenc_update_payload>:
+_utee_authenc_update_payload():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutee/arch/arm/utee_syscalls_asm.S:84
+    2abc:	d2800488 	mov	x8, #0x24                  	// #36
+    2ac0:	d4000001 	svc	#0x0
+    2ac4:	d65f03c0 	ret
+
+0000000000002ac8 <_utee_authenc_enc_final>:
+_utee_authenc_enc_final():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutee/arch/arm/utee_syscalls_asm.S:87
+    2ac8:	d28004a8 	mov	x8, #0x25                  	// #37
+    2acc:	d4000001 	svc	#0x0
+    2ad0:	d65f03c0 	ret
+
+0000000000002ad4 <_utee_authenc_dec_final>:
+_utee_authenc_dec_final():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutee/arch/arm/utee_syscalls_asm.S:89
+    2ad4:	d28004c8 	mov	x8, #0x26                  	// #38
+    2ad8:	d4000001 	svc	#0x0
+    2adc:	d65f03c0 	ret
+
+0000000000002ae0 <_utee_asymm_operate>:
+_utee_asymm_operate():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutee/arch/arm/utee_syscalls_asm.S:91
+    2ae0:	d28004e8 	mov	x8, #0x27                  	// #39
+    2ae4:	d4000001 	svc	#0x0
+    2ae8:	d65f03c0 	ret
+
+0000000000002aec <_utee_asymm_verify>:
+_utee_asymm_verify():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutee/arch/arm/utee_syscalls_asm.S:93
+    2aec:	d2800508 	mov	x8, #0x28                  	// #40
+    2af0:	d4000001 	svc	#0x0
+    2af4:	d65f03c0 	ret
+
+0000000000002af8 <_utee_storage_obj_open>:
+_utee_storage_obj_open():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutee/arch/arm/utee_syscalls_asm.S:95
+    2af8:	d2800528 	mov	x8, #0x29                  	// #41
+    2afc:	d4000001 	svc	#0x0
+    2b00:	d65f03c0 	ret
+
+0000000000002b04 <_utee_storage_obj_create>:
+_utee_storage_obj_create():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutee/arch/arm/utee_syscalls_asm.S:97
+    2b04:	d2800548 	mov	x8, #0x2a                  	// #42
+    2b08:	d4000001 	svc	#0x0
+    2b0c:	d65f03c0 	ret
+
+0000000000002b10 <_utee_storage_obj_del>:
+_utee_storage_obj_del():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutee/arch/arm/utee_syscalls_asm.S:99
+    2b10:	d2800568 	mov	x8, #0x2b                  	// #43
+    2b14:	d4000001 	svc	#0x0
+    2b18:	d65f03c0 	ret
+
+0000000000002b1c <_utee_storage_obj_rename>:
+_utee_storage_obj_rename():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutee/arch/arm/utee_syscalls_asm.S:101
+    2b1c:	d2800588 	mov	x8, #0x2c                  	// #44
+    2b20:	d4000001 	svc	#0x0
+    2b24:	d65f03c0 	ret
+
+0000000000002b28 <_utee_storage_alloc_enum>:
+_utee_storage_alloc_enum():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutee/arch/arm/utee_syscalls_asm.S:103
+    2b28:	d28005a8 	mov	x8, #0x2d                  	// #45
+    2b2c:	d4000001 	svc	#0x0
+    2b30:	d65f03c0 	ret
+
+0000000000002b34 <_utee_storage_free_enum>:
+_utee_storage_free_enum():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutee/arch/arm/utee_syscalls_asm.S:105
+    2b34:	d28005c8 	mov	x8, #0x2e                  	// #46
+    2b38:	d4000001 	svc	#0x0
+    2b3c:	d65f03c0 	ret
+
+0000000000002b40 <_utee_storage_reset_enum>:
+_utee_storage_reset_enum():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutee/arch/arm/utee_syscalls_asm.S:107
+    2b40:	d28005e8 	mov	x8, #0x2f                  	// #47
+    2b44:	d4000001 	svc	#0x0
+    2b48:	d65f03c0 	ret
+
+0000000000002b4c <_utee_storage_start_enum>:
+_utee_storage_start_enum():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutee/arch/arm/utee_syscalls_asm.S:109
+    2b4c:	d2800608 	mov	x8, #0x30                  	// #48
+    2b50:	d4000001 	svc	#0x0
+    2b54:	d65f03c0 	ret
+
+0000000000002b58 <_utee_storage_next_enum>:
+_utee_storage_next_enum():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutee/arch/arm/utee_syscalls_asm.S:111
+    2b58:	d2800628 	mov	x8, #0x31                  	// #49
+    2b5c:	d4000001 	svc	#0x0
+    2b60:	d65f03c0 	ret
+
+0000000000002b64 <_utee_storage_obj_read>:
+_utee_storage_obj_read():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutee/arch/arm/utee_syscalls_asm.S:113
+    2b64:	d2800648 	mov	x8, #0x32                  	// #50
+    2b68:	d4000001 	svc	#0x0
+    2b6c:	d65f03c0 	ret
+
+0000000000002b70 <_utee_storage_obj_write>:
+_utee_storage_obj_write():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutee/arch/arm/utee_syscalls_asm.S:115
+    2b70:	d2800668 	mov	x8, #0x33                  	// #51
+    2b74:	d4000001 	svc	#0x0
+    2b78:	d65f03c0 	ret
+
+0000000000002b7c <_utee_storage_obj_trunc>:
+_utee_storage_obj_trunc():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutee/arch/arm/utee_syscalls_asm.S:117
+    2b7c:	d2800688 	mov	x8, #0x34                  	// #52
+    2b80:	d4000001 	svc	#0x0
+    2b84:	d65f03c0 	ret
+
+0000000000002b88 <_utee_storage_obj_seek>:
+_utee_storage_obj_seek():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutee/arch/arm/utee_syscalls_asm.S:119
+    2b88:	d28006a8 	mov	x8, #0x35                  	// #53
+    2b8c:	d4000001 	svc	#0x0
+    2b90:	d65f03c0 	ret
+
+0000000000002b94 <_utee_cryp_obj_generate_key>:
+_utee_cryp_obj_generate_key():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutee/arch/arm/utee_syscalls_asm.S:121
+    2b94:	d28006c8 	mov	x8, #0x36                  	// #54
+    2b98:	d4000001 	svc	#0x0
+    2b9c:	d65f03c0 	ret
+
+0000000000002ba0 <_utee_cache_operation>:
+_utee_cache_operation():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutee/arch/arm/utee_syscalls_asm.S:124
+    2ba0:	d28008c8 	mov	x8, #0x46                  	// #70
+    2ba4:	d4000001 	svc	#0x0
+    2ba8:	d65f03c0 	ret
+
+0000000000002bac <snprintf>:
+snprintf():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/isoc/snprintf.c:10
+    2bac:	a9b07bfd 	stp	x29, x30, [sp, #-256]!
+    2bb0:	910003fd 	mov	x29, sp
+    2bb4:	a90d93e3 	stp	x3, x4, [sp, #216]
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/isoc/snprintf.c:14
+    2bb8:	910403e3 	add	x3, sp, #0x100
+    2bbc:	a9030fe3 	stp	x3, x3, [sp, #48]
+    2bc0:	910343e3 	add	x3, sp, #0xd0
+    2bc4:	f90023e3 	str	x3, [sp, #64]
+    2bc8:	128004e3 	mov	w3, #0xffffffd8            	// #-40
+    2bcc:	b9004be3 	str	w3, [sp, #72]
+    2bd0:	12800fe3 	mov	w3, #0xffffff80            	// #-128
+    2bd4:	b9004fe3 	str	w3, [sp, #76]
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/isoc/snprintf.c:15
+    2bd8:	910043e3 	add	x3, sp, #0x10
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/isoc/snprintf.c:10
+    2bdc:	a90e9be5 	stp	x5, x6, [sp, #232]
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/isoc/snprintf.c:15
+    2be0:	a94317e4 	ldp	x4, x5, [sp, #48]
+    2be4:	a90117e4 	stp	x4, x5, [sp, #16]
+    2be8:	a94417e4 	ldp	x4, x5, [sp, #64]
+    2bec:	a90217e4 	stp	x4, x5, [sp, #32]
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/isoc/snprintf.c:10
+    2bf0:	3d8017e0 	str	q0, [sp, #80]
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/isoc/snprintf.c:15
+    2bf4:	52800004 	mov	w4, #0x0                   	// #0
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/isoc/snprintf.c:10
+    2bf8:	3d801be1 	str	q1, [sp, #96]
+    2bfc:	3d801fe2 	str	q2, [sp, #112]
+    2c00:	3d8023e3 	str	q3, [sp, #128]
+    2c04:	3d8027e4 	str	q4, [sp, #144]
+    2c08:	3d802be5 	str	q5, [sp, #160]
+    2c0c:	3d802fe6 	str	q6, [sp, #176]
+    2c10:	3d8033e7 	str	q7, [sp, #192]
+    2c14:	f9007fe7 	str	x7, [sp, #248]
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/isoc/snprintf.c:15
+    2c18:	97fffa76 	bl	15f0 <__vsnprintf@plt>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/isoc/snprintf.c:19
+    2c1c:	a8d07bfd 	ldp	x29, x30, [sp], #256
+    2c20:	d65f03c0 	ret
+
+0000000000002c24 <vsnprintf>:
+vsnprintf():
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/isoc/snprintf.c:22
+    2c24:	a9bb7bfd 	stp	x29, x30, [sp, #-80]!
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/isoc/snprintf.c:23
+    2c28:	9100c3e4 	add	x4, sp, #0x30
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/isoc/snprintf.c:22
+    2c2c:	910003fd 	mov	x29, sp
+    2c30:	a90153f3 	stp	x19, x20, [sp, #16]
+    2c34:	aa0003f3 	mov	x19, x0
+    2c38:	aa0103f4 	mov	x20, x1
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/isoc/snprintf.c:23
+    2c3c:	aa0403e0 	mov	x0, x4
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/isoc/snprintf.c:22
+    2c40:	aa0303e1 	mov	x1, x3
+    2c44:	f90013f5 	str	x21, [sp, #32]
+    2c48:	aa0203f5 	mov	x21, x2
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/isoc/snprintf.c:23
+    2c4c:	d2800402 	mov	x2, #0x20                  	// #32
+    2c50:	97fffa4c 	bl	1580 <memcpy@plt>
+    2c54:	aa1503e2 	mov	x2, x21
+    2c58:	aa0003e3 	mov	x3, x0
+    2c5c:	aa1403e1 	mov	x1, x20
+    2c60:	aa1303e0 	mov	x0, x19
+    2c64:	52800004 	mov	w4, #0x0                   	// #0
+    2c68:	97fffa62 	bl	15f0 <__vsnprintf@plt>
+/home/jayanth/quemu-v8/source/optee_os/lib/libutils/isoc/snprintf.c:24
+    2c6c:	a94153f3 	ldp	x19, x20, [sp, #16]
+    2c70:	f94013f5 	ldr	x21, [sp, #32]
+    2c74:	a8c57bfd 	ldp	x29, x30, [sp], #80
+    2c78:	d65f03c0 	ret
